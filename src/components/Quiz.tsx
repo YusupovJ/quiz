@@ -1,12 +1,13 @@
 import { IQuestion, QuestionStatus } from "@/types";
 import { Button } from "./ui/button";
-import { Link, useParams } from "react-router";
+import { useNavigate, useParams } from "react-router";
 import { shuffle } from "@/lib/utils";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 import { Heading } from "./Heading";
 import { Options } from "./Options";
 import { Alert } from "./Alert";
+import { useQuestionStore } from "@/store/questionStore";
 
 interface IQuizProps {
   question: IQuestion;
@@ -14,8 +15,14 @@ interface IQuizProps {
   endpoint: "history" | "philosophy";
 }
 
-export const Quiz = ({ question, isLast, endpoint }: IQuizProps) => {
+export const Quiz = ({ question, endpoint }: IQuizProps) => {
   const { index } = useParams();
+  const navigate = useNavigate();
+
+  const { questions, currentOrder, next, finish } = useQuestionStore();
+  const isLast = questions.length - 1 === currentOrder;
+  const nextQuestion = questions[currentOrder + 1];
+
   const [answer, setAnswer] = useState<number | null>(null);
   const [options, setOptions] = useState(question.options);
   const [status, setStatus] = useState<QuestionStatus>("NOT_GIVEN");
@@ -38,10 +45,20 @@ export const Quiz = ({ question, isLast, endpoint }: IQuizProps) => {
     if (!isCorrect) setCorrectAnswer(String(correctOption.content));
   };
 
+  const onNext = () => {
+    if (isLast) {
+      finish();
+      return navigate(`/${endpoint}`);
+    }
+
+    next();
+    navigate(`/${endpoint}/${index}/${nextQuestion.id}`);
+  };
+
   return (
     <div className="container flex justify-center my-10">
       <div className="border border-border rounded sm:py-10 sm:px-5 py-6 px-3 max-w-[800px] w-full">
-        <Heading endpoint={endpoint} orderNumber={question.id - Number(index) * 20} />
+        <Heading endpoint={endpoint} />
         <p className="md:text-lg leading-7 font-medium">{question.content}</p>
 
         <Options answer={answer} options={options} setAnswer={setAnswer} status={status} />
@@ -52,10 +69,8 @@ export const Quiz = ({ question, isLast, endpoint }: IQuizProps) => {
             Проверить
           </Button>
         ) : (
-          <Button asChild className="w-full mt-10 text-lg">
-            <Link to={isLast ? `/${endpoint}` : `/${endpoint}/${index}/${question.id + 1}`}>
-              {isLast ? "Закончить" : "Следующий"}
-            </Link>
+          <Button className="w-full mt-10 text-lg" onClick={onNext}>
+            {isLast ? "Закончить" : "Следующий"}
           </Button>
         )}
       </div>

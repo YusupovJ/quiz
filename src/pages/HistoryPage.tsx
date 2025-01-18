@@ -1,6 +1,7 @@
+import { List } from "@/components/List";
 import { Button } from "@/components/ui/button";
 import { history } from "@/data/history";
-import { ArrowLeft, File } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router";
 
 export const HistoryPage = () => {
@@ -15,18 +16,7 @@ export const HistoryPage = () => {
         <h3 className="md:text-4xl text-2xl font-bold">Тесты по истории</h3>
         <div className="md:w-[134px] w-10 h-10 hidden sm:block" />
       </div>
-      <ul className="grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-4 my-5">
-        {history.map((variant, index) => {
-          return (
-            <li key={index} className="border border-border rounded hover:bg-foreground/15 transition-colors">
-              <Link to={`/history/${index}/${variant[0].id}`} className="flex flex-col items-center p-6">
-                <File size="48px" />
-                <span className="text-lg mt-4 font-medium">Вариант {index + 1}</span>
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
+      <List endpoint="history" variants={history} />
     </div>
   );
 };
