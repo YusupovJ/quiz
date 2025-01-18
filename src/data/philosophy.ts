@@ -529,7 +529,7 @@ export const philosophy: Array<IQuestion[]> = [
           id: 191,
           content:
             "поскольку понятие «личность» неотделимо от понятия «общество» - каждый человек потенциальная личность",
-          isRight: false,
+          isRight: true,
         },
         { id: 192, content: "личность есть стабильное, неизменное свойство каждого индивида", isRight: false },
       ],
@@ -725,7 +725,7 @@ export const philosophy: Array<IQuestion[]> = [
       options: [
         { id: 265, content: "Понятие", isRight: false },
         { id: 266, content: "Доказательство", isRight: false },
-        { id: 267, content: "Тезеи", isRight: false },
+        { id: 267, content: "Тезис", isRight: true },
         { id: 268, content: "Аргумент", isRight: false },
       ],
     },
@@ -1113,7 +1113,7 @@ export const philosophy: Array<IQuestion[]> = [
       options: [
         { id: 409, content: "сатира и гротеск", isRight: false },
         { id: 410, content: "сатира и каламбур", isRight: false },
-        { id: 411, content: "юмор и гротеск", isRight: false },
+        { id: 411, content: "юмор и гротеск", isRight: true },
         { id: 412, content: "юмор и сатира", isRight: false },
       ],
     },
@@ -1121,7 +1121,7 @@ export const philosophy: Array<IQuestion[]> = [
       id: 104,
       content: "Выражения языка, обозначающие свойства отношения, называются…",
       options: [
-        { id: 413, content: "Предикторами ", isRight: false },
+        { id: 413, content: "Предикторами ", isRight: true },
         { id: 414, content: "концептом", isRight: false },
         { id: 415, content: "денотатом", isRight: false },
         { id: 416, content: "смыслом", isRight: false },
