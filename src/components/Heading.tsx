@@ -8,10 +8,10 @@ interface IHeadingProps {
 }
 
 export const Heading = ({ endpoint }: IHeadingProps) => {
-  const { currentOrder } = useQuestionStore();
+  const { currentOrder, finish } = useQuestionStore();
   return (
     <div className="flex items-center justify-between mb-4">
-      <Button size="icon" asChild>
+      <Button size="icon" asChild onClick={finish}>
         <Link to={`/${endpoint}`}>
           <ArrowLeft />
         </Link>

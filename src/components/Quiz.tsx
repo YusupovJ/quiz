@@ -1,5 +1,4 @@
 import { IQuestion, QuestionStatus } from "@/types";
-import { Button } from "./ui/button";
 import { useNavigate, useParams } from "react-router";
 import { shuffle } from "@/lib/utils";
 import { useEffect, useState } from "react";
@@ -8,6 +7,7 @@ import { Heading } from "./Heading";
 import { Options } from "./Options";
 import { Alert } from "./Alert";
 import { useQuestionStore } from "@/store/questionStore";
+import { Actions } from "./Actions";
 
 interface IQuizProps {
   question: IQuestion;
@@ -19,7 +19,7 @@ export const Quiz = ({ question, endpoint }: IQuizProps) => {
   const { index } = useParams();
   const navigate = useNavigate();
 
-  const { questions, currentOrder, next, finish } = useQuestionStore();
+  const { questions, currentOrder, next, correct, wrong, result } = useQuestionStore();
   const isLast = questions.length - 1 === currentOrder;
   const nextQuestion = questions[currentOrder + 1];
 
@@ -34,6 +34,15 @@ export const Quiz = ({ question, endpoint }: IQuizProps) => {
     setStatus("NOT_GIVEN");
   }, [question.options]);
 
+  useEffect(() => {
+    const currentResult = result[currentOrder];
+
+    if (currentResult) {
+      const isCorrect = currentResult === "1";
+      setStatus(isCorrect ? "CORRECT" : "WRONG");
+    }
+  }, [result]);
+
   const checkAnswer = () => {
     if (!answer) {
       return toast.warning("На вопрос отвечай");
@@ -41,16 +50,18 @@ export const Quiz = ({ question, endpoint }: IQuizProps) => {
 
     const correctOption = options.find((option) => option.isRight)!;
     const isCorrect = correctOption.id === answer;
-    setStatus(isCorrect ? "CORRECT" : "WRONG");
-    if (!isCorrect) setCorrectAnswer(String(correctOption.content));
+
+    if (isCorrect) {
+      setStatus("CORRECT");
+      correct();
+    } else {
+      setCorrectAnswer(String(correctOption.content));
+      setStatus("WRONG");
+      wrong();
+    }
   };
 
   const onNext = () => {
-    if (isLast) {
-      finish();
-      return navigate(`/${endpoint}`);
-    }
-
     next();
     navigate(`/${endpoint}/${index}/${nextQuestion.id}`);
   };
@@ -64,15 +75,7 @@ export const Quiz = ({ question, endpoint }: IQuizProps) => {
         <Options answer={answer} options={options} setAnswer={setAnswer} status={status} />
         <Alert correctAnswer={correctAnswer} status={status} />
 
-        {status === "NOT_GIVEN" ? (
-          <Button className="w-full mt-10 text-lg" onClick={checkAnswer}>
-            Проверить
-          </Button>
-        ) : (
-          <Button className="w-full mt-10 text-lg" onClick={onNext}>
-            {isLast ? "Закончить" : "Следующий"}
-          </Button>
-        )}
+        <Actions checkAnswer={checkAnswer} isLast={isLast} onNext={onNext} status={status} />
       </div>
     </div>
   );

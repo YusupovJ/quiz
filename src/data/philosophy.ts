@@ -523,13 +523,13 @@ export const philosophy: Array<IQuestion[]> = [
       id: 48,
       content: "Личность – это:",
       options: [
-        { id: 189, content: "личностью не рождаются, личностью становятся", isRight: false },
+        { id: 189, content: "личностью не рождаются, личностью становятся", isRight: true },
         { id: 190, content: "личностью является не каждый человек, а только выдающийся", isRight: false },
         {
           id: 191,
           content:
             "поскольку понятие «личность» неотделимо от понятия «общество» - каждый человек потенциальная личность",
-          isRight: true,
+          isRight: false,
         },
         { id: 192, content: "личность есть стабильное, неизменное свойство каждого индивида", isRight: false },
       ],
@@ -1101,7 +1101,7 @@ export const philosophy: Array<IQuestion[]> = [
       id: 102,
       content: "Кто в истории эстетики ввел термин «эстетика»?",
       options: [
-        { id: 405, content: "Баумгартен", isRight: false },
+        { id: 405, content: "Баумгартен", isRight: true },
         { id: 406, content: "Буало", isRight: false },
         { id: 407, content: "Бергсон", isRight: false },
         { id: 408, content: "Берк", isRight: false },
@@ -1485,8 +1485,8 @@ export const philosophy: Array<IQuestion[]> = [
       content:
         "«Философская категория для обозначения объективной реальности, которая дана человеку в его ощущениях» есть",
       options: [
-        { id: 545, content: "Материя", isRight: false },
-        { id: 546, content: "Явление", isRight: true },
+        { id: 545, content: "Материя", isRight: true },
+        { id: 546, content: "Явление", isRight: false },
         { id: 547, content: "Мера", isRight: false },
         { id: 548, content: "Качество", isRight: false },
       ],
