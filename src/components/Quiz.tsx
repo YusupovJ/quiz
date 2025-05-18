@@ -1,4 +1,4 @@
-import { IQuestion, QuestionStatus } from "@/types";
+import { IQuestion, QuestionStatus, TEndpoints } from "@/types";
 import { useNavigate, useParams } from "react-router";
 import { shuffle } from "@/lib/utils";
 import { useEffect, useState } from "react";
@@ -12,7 +12,7 @@ import { Actions } from "./Actions";
 interface IQuizProps {
   question: IQuestion;
   isLast: boolean;
-  endpoint: "history" | "philosophy";
+  endpoint: TEndpoints;
 }
 
 export const Quiz = ({ question, endpoint }: IQuizProps) => {
@@ -41,7 +41,7 @@ export const Quiz = ({ question, endpoint }: IQuizProps) => {
       const isCorrect = currentResult === "1";
       setStatus(isCorrect ? "CORRECT" : "WRONG");
     }
-  }, [result]);
+  }, [result, currentOrder]);
 
   const checkAnswer = () => {
     if (!answer) {

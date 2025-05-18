@@ -2,9 +2,10 @@ import { Link } from "react-router";
 import { Button } from "./ui/button";
 import { ArrowLeft } from "lucide-react";
 import { useQuestionStore } from "@/store/questionStore";
+import { TEndpoints } from "@/types";
 
 interface IHeadingProps {
-  endpoint: "history" | "philosophy";
+  endpoint: TEndpoints;
 }
 
 export const Heading = ({ endpoint }: IHeadingProps) => {

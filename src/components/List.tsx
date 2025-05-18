@@ -1,12 +1,12 @@
 import { shuffle } from "@/lib/utils";
 import { useQuestionStore } from "@/store/questionStore";
-import { IQuestion } from "@/types";
+import { IQuestion, TEndpoints } from "@/types";
 import { File } from "lucide-react";
 import { useNavigate } from "react-router";
 
 interface IListProps {
   variants: Array<IQuestion[]>;
-  endpoint: "history" | "philosophy";
+  endpoint: TEndpoints;
 }
 
 export const List = ({ endpoint, variants }: IListProps) => {
