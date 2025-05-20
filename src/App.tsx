@@ -8,6 +8,8 @@ import { PhilosophyPage } from "./pages/PhilosophyPage";
 import { PhilosophyQuiz } from "./pages/PhilosophyQuiz";
 import { AcademyPage } from "./pages/AcademyPage";
 import { AcademyQuiz } from "./pages/AcademyQuiz ";
+import { ReligiaPage } from "./pages/ReligiaPage";
+import { ReligiaQuiz } from "./pages/ReligiaQuiz";
 
 export const App = () => {
   useTheme();
@@ -15,11 +17,13 @@ export const App = () => {
     <Routes>
       <Route path="/" element={<MainPage />} />
       <Route path="/history" element={<HistoryPage />} />
-      <Route path="/philosophy" element={<PhilosophyPage />} />
-      <Route path="/academy" element={<AcademyPage />} />
       <Route path="/history/:index/:id" element={<HistoryQuiz />} />
+      <Route path="/philosophy" element={<PhilosophyPage />} />
       <Route path="/philosophy/:index/:id" element={<PhilosophyQuiz />} />
+      <Route path="/academy" element={<AcademyPage />} />
       <Route path="/academy/:index/:id" element={<AcademyQuiz />} />
+      <Route path="/religia" element={<ReligiaPage />} />
+      <Route path="/religia/:index/:id" element={<ReligiaQuiz />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );

@@ -75,7 +75,7 @@ export const Quiz = ({ question, endpoint }: IQuizProps) => {
         <Options answer={answer} options={options} setAnswer={setAnswer} status={status} />
         <Alert correctAnswer={correctAnswer} status={status} />
 
-        <Actions checkAnswer={checkAnswer} isLast={isLast} onNext={onNext} status={status} />
+        <Actions endpoint={endpoint} checkAnswer={checkAnswer} isLast={isLast} onNext={onNext} status={status} />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import { QuestionStatus } from "@/types";
+import { QuestionStatus, TEndpoints } from "@/types";
 import { Button } from "./ui/button";
 import { OnFinish } from "./OnFinish";
 
@@ -7,9 +7,10 @@ interface IActionsProps {
   checkAnswer: () => void;
   isLast: boolean;
   onNext: () => void;
+  endpoint: TEndpoints;
 }
 
-export const Actions = ({ status, checkAnswer, isLast, onNext }: IActionsProps) => {
+export const Actions = ({ endpoint, status, checkAnswer, isLast, onNext }: IActionsProps) => {
   if (status === "NOT_GIVEN") {
     return (
       <Button className="w-full mt-10 text-lg" onClick={checkAnswer}>
@@ -26,5 +27,5 @@ export const Actions = ({ status, checkAnswer, isLast, onNext }: IActionsProps) 
     );
   }
 
-  return <OnFinish />;
+  return <OnFinish endpoint={endpoint} />;
 };

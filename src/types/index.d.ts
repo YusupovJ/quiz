@@ -11,4 +11,4 @@ export interface IQuestion {
 }
 
 export type QuestionStatus = "CORRECT" | "WRONG" | "NOT_GIVEN";
-export type TEndpoints = "history" | "philosophy" | "academy";
+export type TEndpoints = "history" | "philosophy" | "academy" | "religia";

@@ -14,6 +14,9 @@ export const MainPage = () => {
         <Button asChild variant="outline" className="text-lg px-16 py-8">
           <Link to="/academy">Академическое письмо</Link>
         </Button>
+        <Button asChild variant="outline" className="text-lg px-16 py-8">
+          <Link to="/religia">Религиоведение</Link>
+        </Button>
       </div>
     </main>
   );

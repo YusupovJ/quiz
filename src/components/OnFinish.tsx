@@ -11,8 +11,9 @@ import { useQuestionStore } from "@/store/questionStore";
 import { Cell, Pie, PieChart, Label } from "recharts";
 import { useSpring, animated } from "@react-spring/web";
 import { useNavigate } from "react-router";
+import { TEndpoints } from "@/types";
 
-export const OnFinish = () => {
+export const OnFinish = ({ endpoint }: { endpoint: TEndpoints }) => {
   const { result, finish } = useQuestionStore();
   const navigate = useNavigate();
   const corrects = result.split("").reduce((count, value) => (value === "1" ? count + 1 : count), 0);
@@ -32,7 +33,7 @@ export const OnFinish = () => {
 
   const onClick = () => {
     finish();
-    navigate("/");
+    navigate(`/${endpoint}`);
   };
 
   return (
@@ -69,7 +70,7 @@ export const OnFinish = () => {
             </Pie>
           </PieChart>
           <Button className="w-full" onClick={onClick}>
-            На главную
+            Назад
           </Button>
         </DialogHeader>
       </DialogContent>
