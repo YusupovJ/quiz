@@ -10,6 +10,8 @@ import { AcademyPage } from "./pages/AcademyPage";
 import { AcademyQuiz } from "./pages/AcademyQuiz ";
 import { ReligiaPage } from "./pages/ReligiaPage";
 import { ReligiaQuiz } from "./pages/ReligiaQuiz";
+import { MtaPage } from "./pages/MtaPage";
+import { MtaQuiz } from "./pages/MtaQuiz";
 
 export const App = () => {
   useTheme();
@@ -24,6 +26,8 @@ export const App = () => {
       <Route path="/academy/:index/:id" element={<AcademyQuiz />} />
       <Route path="/religia" element={<ReligiaPage />} />
       <Route path="/religia/:index/:id" element={<ReligiaQuiz />} />
+      <Route path="/mta" element={<MtaPage />} />
+      <Route path="/mta/:index/:id" element={<MtaQuiz />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
