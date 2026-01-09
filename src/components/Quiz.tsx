@@ -16,7 +16,7 @@ interface IQuizProps {
 }
 
 export const Quiz = ({ question, endpoint }: IQuizProps) => {
-  const { index } = useParams();
+  const { index } = useParams<{ index: string }>();
   const navigate = useNavigate();
 
   const { questions, currentOrder, next, correct, wrong, result } = useQuestionStore();
