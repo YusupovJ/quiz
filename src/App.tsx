@@ -2,6 +2,8 @@ import { Route, Routes } from "react-router";
 import { useTheme } from "./hooks/useTheme";
 import { MainPage } from "./pages/MainPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
+import { CyberPage } from "./pages/Cyber/CyberPage";
+import { CyberQuiz } from "./pages/Cyber/CyberQuiz ";
 // import { HistoryPage } from "./pages/HistoryPage";
 // import { HistoryQuiz } from "./pages/HistoryQuiz";
 // import { PhilosophyPage } from "./pages/PhilosophyPage";
@@ -12,8 +14,8 @@ import { NotFoundPage } from "./pages/NotFoundPage";
 // import { ReligiaQuiz } from "./pages/ReligiaQuiz";
 // import { MtaPage } from "./pages/MtaPage";
 // import { MtaQuiz } from "./pages/MtaQuiz";
-import { DBPage } from "./pages/DBPage";
-import { DBQuiz } from "./pages/DBQuiz";
+// import { DBPage } from "./pages/DBPage";
+// import { DBQuiz } from "./pages/DBQuiz";
 
 export const App = () => {
   useTheme();
@@ -30,8 +32,10 @@ export const App = () => {
       <Route path="/religia/:index/:id" element={<ReligiaQuiz />} />
       <Route path="/mta" element={<MtaPage />} />
       <Route path="/mta/:index/:id" element={<MtaQuiz />} /> */}
-      <Route path="/db" element={<DBPage />} />
-      <Route path="/db/:index/:id" element={<DBQuiz />} />
+      {/* <Route path="/db" element={<DBPage />} />
+      <Route path="/db/:index/:id" element={<DBQuiz />} /> */}
+      <Route path="/cyber" element={<CyberPage />} />
+      <Route path="/cyber/:index/:id" element={<CyberQuiz />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
