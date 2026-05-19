@@ -1,6 +1,6 @@
 import { IQuestion } from "@/types";
 
-export const cyber: IQuestion[][] = [
+export const questions: IQuestion[][] = [
   // === Билет 1 ===
   [
     {
@@ -453,22 +453,22 @@ export const cyber: IQuestion[][] = [
       options: [
         {
           id: 69,
-          content: "Ethernet.",
+          content: "IP.",
           isRight: true,
         },
         {
           id: 70,
-          content: "Интернет.",
+          content: "Ethernet.",
           isRight: false,
         },
         {
           id: 71,
-          content: "TCP.",
+          content: "Интернет.",
           isRight: false,
         },
         {
           id: 72,
-          content: "IP.",
+          content: "TCP.",
           isRight: false,
         },
       ],
@@ -1606,22 +1606,22 @@ export const cyber: IQuestion[][] = [
       options: [
         {
           id: 245,
-          content: "3 категории.",
+          content: "8 категорий.",
           isRight: true,
         },
         {
           id: 246,
-          content: "2 категории.",
+          content: "3 категории.",
           isRight: false,
         },
         {
           id: 247,
-          content: "4 категории.",
+          content: "5 категорий.",
           isRight: false,
         },
         {
           id: 248,
-          content: "5 категорий.",
+          content: "10 категорий.",
           isRight: false,
         },
       ],
