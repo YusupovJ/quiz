@@ -1,6 +1,6 @@
 import { IQuestion } from "@/types";
 
-export const questions: IQuestion[][] = [
+export const cyber: IQuestion[][] = [
   // === Билет 1 ===
   [
     {
@@ -87,22 +87,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 13,
-          content: "Фишинг.",
+          content: "Fishing",
           isRight: true,
         },
         {
           id: 14,
-          content: "Спам.",
+          content: "Control.",
           isRight: false,
         },
         {
           id: 15,
-          content: "Спуфинг.",
+          content: "Defense.",
           isRight: false,
         },
         {
           id: 16,
-          content: "Снифинг.",
+          content: "Denial.",
           isRight: false,
         },
       ],
@@ -113,22 +113,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 17,
-          content: "Атака типа «отказ в обслуживании», направленная на нарушение работы сервиса.",
+          content: "Прекращение обслуживания, то есть хакерская атака на вычислительную систему.",
           isRight: true,
         },
         {
           id: 18,
-          content: "Дисковая операционная система для серверов.",
+          content: "Запуск обслуживания, то есть включение вычислительной системы.",
           isRight: false,
         },
         {
           id: 19,
-          content: "Протокол передачи данных между узлами сети.",
+          content: "Повышение качества обслуживания, то есть предоставление услуг высокого качества.",
           isRight: false,
         },
         {
           id: 20,
-          content: "Программа, предназначенная для шифрования трафика.",
+          content: "Обеспечение безопасности обслуживания, то есть защита вычислительных систем от хакерских атак.",
           isRight: false,
         },
       ],
@@ -144,17 +144,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 22,
-          content: "DoS-атака.",
+          content: "Атака DOS.",
           isRight: false,
         },
         {
           id: 23,
-          content: "Фишинговая атака.",
+          content: "Глобальная атака.",
           isRight: false,
         },
         {
           id: 24,
-          content: "Brute-force атака.",
+          content: "Локальная атака.",
           isRight: false,
         },
       ],
@@ -165,22 +165,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 25,
-          content: "Распределённая атака типа «отказ в обслуживании», осуществляемая с множества устройств.",
+          content: "Distributed Denial of Service (Распределённый отказ в обслуживании).",
           isRight: true,
         },
         {
           id: 26,
-          content: "Двойной протокол передачи данных в локальной сети.",
+          content: "Denial of Service (отказ в обслуживании).",
           isRight: false,
         },
         {
           id: 27,
-          content: "Дискретная операционная система для серверов.",
+          content: "Distributed of Service (распределённый отказ в обслуживании).",
           isRight: false,
         },
         {
           id: 28,
-          content: "Метод динамической диагностики сети.",
+          content: "Distributed Union of Service (распределённый союз обслуживания).",
           isRight: false,
         },
       ],
@@ -191,22 +191,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 29,
-          content: "Шантаж, личная неприязнь, развлечение, протест, недобросовестная конкуренция.",
+          content: "Личная неприязнь, развлечение, недобросовестная конкуренция, шантаж.",
           isRight: true,
         },
         {
           id: 30,
-          content: "Только шантаж и недобросовестная конкуренция.",
+          content: "Личная неприязнь, развлечение, заработок денег, демонстрация возможностей.",
           isRight: false,
         },
         {
           id: 31,
-          content: "Только личная неприязнь и протест.",
+          content: "Развлечение, недобросовестная конкуренция, повреждение файлов, заработок денег.",
           isRight: false,
         },
         {
           id: 32,
-          content: "Только развлечение и хулиганство.",
+          content: "Недобросовестная конкуренция, шантаж.",
           isRight: false,
         },
       ],
@@ -217,22 +217,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 33,
-          content: "10 правил.",
+          content: "10 пунктов.",
           isRight: true,
         },
         {
           id: 34,
-          content: "5 правил.",
+          content: "12 пунктов.",
           isRight: false,
         },
         {
           id: 35,
-          content: "7 правил.",
+          content: "15 пунктов.",
           isRight: false,
         },
         {
           id: 36,
-          content: "12 правил.",
+          content: "8 пунктов.",
           isRight: false,
         },
       ],
@@ -253,12 +253,12 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 39,
-          content: "Инфраструктура.",
+          content: "Пространство.",
           isRight: false,
         },
         {
           id: 40,
-          content: "Сеть.",
+          content: "Информационное пространство.",
           isRight: false,
         },
       ],
@@ -274,17 +274,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 42,
-          content: "Информационная структура.",
+          content: "Информационное пространство.",
           isRight: false,
         },
         {
           id: 43,
-          content: "Информационная среда.",
+          content: "Структура.",
           isRight: false,
         },
         {
           id: 44,
-          content: "Информационная система.",
+          content: "Простая информация.",
           isRight: false,
         },
       ],
@@ -295,22 +295,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 45,
-          content: "Информационная инфраструктура.",
+          content: "Информационная система.",
           isRight: true,
         },
         {
           id: 46,
-          content: "Информационная среда.",
+          content: "Информационный поток.",
           isRight: false,
         },
         {
           id: 47,
-          content: "Информационная система.",
+          content: "Информационное пространство.",
           isRight: false,
         },
         {
           id: 48,
-          content: "Информационный поток.",
+          content: "Структура.",
           isRight: false,
         },
       ],
@@ -321,22 +321,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 49,
-          content: "Информационная система.",
+          content: "Простая информационная система.",
           isRight: true,
         },
         {
           id: 50,
-          content: "Информационная среда.",
+          content: "Сложная информационная система.",
           isRight: false,
         },
         {
           id: 51,
-          content: "Информационная инфраструктура.",
+          content: "Структурированная информационная система.",
           isRight: false,
         },
         {
           id: 52,
-          content: "Информационный поток.",
+          content: "Информационная система на основе пространства.",
           isRight: false,
         },
       ],
@@ -348,22 +348,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 53,
-          content: "Информационно-телекоммуникационная инфраструктура.",
+          content: "Информационная инфраструктура.",
           isRight: true,
         },
         {
           id: 54,
-          content: "Информационная система.",
+          content: "Сложная информационная система.",
           isRight: false,
         },
         {
           id: 55,
-          content: "Информационная структура.",
+          content: "Простая информационная система.",
           isRight: false,
         },
         {
           id: 56,
-          content: "Локальная вычислительная сеть.",
+          content: "Структурированная информация.",
           isRight: false,
         },
       ],
@@ -374,22 +374,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 57,
-          content: "Физический адрес устройства в сети.",
+          content: "Сетевой адрес компьютерного устройства.",
           isRight: true,
         },
         {
           id: 58,
-          content: "Сетевой адрес.",
+          content: "Интернет-адрес компьютерного устройства.",
           isRight: false,
         },
         {
           id: 59,
-          content: "Интернет-адрес.",
+          content: "Wi-Fi адрес компьютерного устройства.",
           isRight: false,
         },
         {
           id: 60,
-          content: "Почтовый адрес.",
+          content: "Администраторский адрес компьютерного устройства.",
           isRight: false,
         },
       ],
@@ -453,22 +453,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 69,
-          content: "IP.",
+          content: "Ethernet.",
           isRight: true,
         },
         {
           id: 70,
-          content: "Ethernet.",
-          isRight: false,
-        },
-        {
-          id: 71,
           content: "Интернет.",
           isRight: false,
         },
         {
-          id: 72,
+          id: 71,
           content: "TCP.",
+          isRight: false,
+        },
+        {
+          id: 72,
+          content: "IP.",
           isRight: false,
         },
       ],
@@ -531,22 +531,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 81,
-          content: "Протокол.",
+          content: "Протокол передачи данных.",
           isRight: true,
         },
         {
           id: 82,
-          content: "Интерфейс.",
+          content: "Протокол получения данных.",
           isRight: false,
         },
         {
           id: 83,
-          content: "Канал.",
+          content: "Протокол обработки данных.",
           isRight: false,
         },
         {
           id: 84,
-          content: "Маршрут.",
+          content: "Протокол удаления данных.",
           isRight: false,
         },
       ],
@@ -562,17 +562,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 86,
-          content: "Сетевой интерфейс.",
+          content: "Протокол передачи.",
           isRight: false,
         },
         {
           id: 87,
-          content: "Сетевой драйвер.",
+          content: "Протокол приёма данных.",
           isRight: false,
         },
         {
           id: 88,
-          content: "Сетевой адаптер.",
+          content: "Протокол передачи.",
           isRight: false,
         },
       ],
@@ -588,12 +588,12 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 90,
-          content: "5 уровней.",
+          content: "2 уровня.",
           isRight: false,
         },
         {
           id: 91,
-          content: "7 уровней.",
+          content: "5 уровней.",
           isRight: false,
         },
         {
@@ -609,12 +609,12 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 93,
-          content: "POP3.",
+          content: "A и B.",
           isRight: true,
         },
         {
           id: 94,
-          content: "HTTP.",
+          content: "SMTP.",
           isRight: false,
         },
         {
@@ -624,7 +624,7 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 96,
-          content: "TCP.",
+          content: "POP3.",
           isRight: false,
         },
       ],
@@ -640,17 +640,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 98,
-          content: "HTTP.",
-          isRight: false,
-        },
-        {
-          id: 99,
           content: "FTP.",
           isRight: false,
         },
         {
+          id: 99,
+          content: "OSI.",
+          isRight: false,
+        },
+        {
           id: 100,
-          content: "DNS.",
+          content: "POP3.",
           isRight: false,
         },
       ],
@@ -664,22 +664,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 101,
-          content: "Протокол передачи гипертекста.",
+          content: "Обмен гипертекстовой информацией.",
           isRight: true,
         },
         {
           id: 102,
-          content: "Протокол передачи файлов.",
+          content: "Передача сообщений электронной почты.",
           isRight: false,
         },
         {
           id: 103,
-          content: "Протокол электронной почты.",
+          content: "Передача файлов.",
           isRight: false,
         },
         {
           id: 104,
-          content: "Протокол маршрутизации.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -700,12 +700,12 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 107,
-          content: "SMTP.",
+          content: "OSI.",
           isRight: false,
         },
         {
           id: 108,
-          content: "DNS.",
+          content: "SMTP.",
           isRight: false,
         },
       ],
@@ -726,12 +726,12 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 111,
-          content: "DNS.",
+          content: "IP.",
           isRight: false,
         },
         {
           id: 112,
-          content: "FTP.",
+          content: "DNS.",
           isRight: false,
         },
       ],
@@ -742,22 +742,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 113,
-          content: "Internet Protocol.",
+          content: "Интернет-протокол.",
           isRight: true,
         },
         {
           id: 114,
-          content: "Internet Process.",
+          content: "Интернет-система.",
           isRight: false,
         },
         {
           id: 115,
-          content: "Internal Protocol.",
+          content: "Протокол передачи данных.",
           isRight: false,
         },
         {
           id: 116,
-          content: "Inter Protocol.",
+          content: "Открытый интернет.",
           isRight: false,
         },
       ],
@@ -773,17 +773,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 118,
-          content: "Протокол передачи данных.",
+          content: "Адресное именование.",
           isRight: false,
         },
         {
           id: 119,
-          content: "Протокол электронной почты.",
+          content: "Передача данных.",
           isRight: false,
         },
         {
           id: 120,
-          content: "Динамическая сетевая служба.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -799,17 +799,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 122,
-          content: "HTTP.",
+          content: "DNS.",
           isRight: false,
         },
         {
           id: 123,
-          content: "FTP.",
+          content: "IGP.",
           isRight: false,
         },
         {
           id: 124,
-          content: "SMTP.",
+          content: "EGP.",
           isRight: false,
         },
       ],
@@ -820,22 +820,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 125,
-          content: "Протокол маршрутизации, основанный на состоянии канала.",
+          content: "Сначала открыть самый короткий путь.",
           isRight: true,
         },
         {
           id: 126,
-          content: "Протокол передачи файлов в сети.",
+          content: "Наиболее оптимальный маршрут до адреса.",
           isRight: false,
         },
         {
           id: 127,
-          content: "Протокол электронной почты.",
+          content: "Передача данных.",
           isRight: false,
         },
         {
           id: 128,
-          content: "Протокол шифрования трафика.",
+          content: "Доменные имена.",
           isRight: false,
         },
       ],
@@ -856,12 +856,12 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 131,
-          content: "Протокол передачи файлов.",
+          content: "Короткий маршрут.",
           isRight: false,
         },
         {
           id: 132,
-          content: "Протокол электронной почты.",
+          content: "Информация о маршрутах.",
           isRight: false,
         },
       ],
@@ -877,17 +877,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 134,
-          content: "RIP.",
+          content: "IGP.",
           isRight: false,
         },
         {
           id: 135,
-          content: "OSPF.",
+          content: "BGP.",
           isRight: false,
         },
         {
           id: 136,
-          content: "IGP.",
+          content: "RIP.",
           isRight: false,
         },
       ],
@@ -903,17 +903,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 138,
-          content: "OSPF.",
+          content: "IGP.",
           isRight: false,
         },
         {
           id: 139,
-          content: "RIP.",
+          content: "EGP.",
           isRight: false,
         },
         {
           id: 140,
-          content: "IGP.",
+          content: "RID.",
           isRight: false,
         },
       ],
@@ -924,22 +924,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 141,
-          content: "Греческого.",
+          content: "Латинский язык.",
           isRight: true,
         },
         {
           id: 142,
-          content: "Латинского.",
+          content: "Греческий язык.",
           isRight: false,
         },
         {
           id: 143,
-          content: "Арабского.",
+          content: "Персидский язык.",
           isRight: false,
         },
         {
           id: 144,
-          content: "Английского.",
+          content: "Арабский язык.",
           isRight: false,
         },
       ],
@@ -950,22 +950,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 145,
-          content: "Скрытое (тайное) слово.",
+          content: "Скрытое слово.",
           isRight: true,
         },
         {
           id: 146,
-          content: "Открытое слово.",
+          content: "Ключевое слово.",
           isRight: false,
         },
         {
           id: 147,
-          content: "Защищённый код.",
+          content: "Автономное слово.",
           isRight: false,
         },
         {
           id: 148,
-          content: "Расшифрованное послание.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -986,12 +986,12 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 151,
-          content: "Стеганография.",
+          content: "Криптос.",
           isRight: false,
         },
         {
           id: 152,
-          content: "Кодирование.",
+          content: "Шифрование.",
           isRight: false,
         },
       ],
@@ -1017,7 +1017,7 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 156,
-          content: "Создание нового шифра.",
+          content: "B и C.",
           isRight: false,
         },
       ],
@@ -1043,7 +1043,7 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 160,
-          content: "Декодирование.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -1080,22 +1080,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 165,
-          content: "Греция, Египет.",
+          content: "Все ответы верны.",
           isRight: true,
         },
         {
           id: 166,
-          content: "Греция, Китай.",
+          content: "Греция, Египет.",
           isRight: false,
         },
         {
           id: 167,
-          content: "Рим, Спарта.",
+          content: "Греция, Китай.",
           isRight: false,
         },
         {
           id: 168,
-          content: "Все ответы верны.",
+          content: "Рим, Спарта.",
           isRight: false,
         },
       ],
@@ -1158,22 +1158,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 177,
-          content: "До 1949 года.",
+          content: "1949-1976 годы.",
           isRight: true,
         },
         {
           id: 178,
-          content: "С 1949 по 1976 год.",
+          content: "1959-1976 годы.",
           isRight: false,
         },
         {
           id: 179,
-          content: "С 1976 года по настоящее время.",
+          content: "1948-1975 годы.",
           isRight: false,
         },
         {
           id: 180,
-          content: "До 1900 года.",
+          content: "1939–1966 годы.",
           isRight: false,
         },
       ],
@@ -1184,22 +1184,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 181,
-          content: "Период научной криптологии.",
+          content: "2 этап.",
           isRight: true,
         },
         {
           id: 182,
-          content: "Классический период.",
+          content: "1 этап.",
           isRight: false,
         },
         {
           id: 183,
-          content: "Современный период криптологии с открытым ключом.",
+          content: "3 этап.",
           isRight: false,
         },
         {
           id: 184,
-          content: "Период ручного шифрования.",
+          content: "4 этап.",
           isRight: false,
         },
       ],
@@ -1210,22 +1210,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 185,
-          content: "Использование одного и того же секретного ключа для шифрования и дешифрования.",
+          content: "Один ключ используется для шифрования и дешифрования.",
           isRight: true,
         },
         {
           id: 186,
-          content: "Использование двух разных ключей: открытого и закрытого.",
+          content: "Для шифрования и дешифрования используются два ключа.",
           isRight: false,
         },
         {
           id: 187,
-          content: "Метод шифрования без использования ключа.",
+          content: "Для шифрования и дешифрования используются три ключа.",
           isRight: false,
         },
         {
           id: 188,
-          content: "Шифрование с использованием цифровой подписи.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -1237,22 +1237,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 189,
-          content: "Период с 1949 по 1976 годы.",
+          content: "2 этап.",
           isRight: true,
         },
         {
           id: 190,
-          content: "До 1949 года.",
+          content: "1 этап.",
           isRight: false,
         },
         {
           id: 191,
-          content: "С 1976 года по настоящее время.",
+          content: "4 этап.",
           isRight: false,
         },
         {
           id: 192,
-          content: "До 1900 года.",
+          content: "A и B.",
           isRight: false,
         },
       ],
@@ -1263,22 +1263,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 193,
-          content: "Использование двух разных ключей: открытого для шифрования и закрытого для дешифрования.",
+          content: "Правильного ответа нет.",
           isRight: true,
         },
         {
           id: 194,
-          content: "Использование одного секретного ключа для шифрования и дешифрования.",
+          content: "k1=k2.",
           isRight: false,
         },
         {
           id: 195,
-          content: "Шифрование без использования ключей.",
+          content: "k1<k2.",
           isRight: false,
         },
         {
           id: 196,
-          content: "Метод ручного шифрования писем.",
+          content: "k1 > k2.",
           isRight: false,
         },
       ],
@@ -1289,22 +1289,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 197,
-          content: "До 1949 г., 1949–1976 гг., с 1976 г. по настоящее время.",
+          content: "С 1976 года до настоящего времени.",
           isRight: true,
         },
         {
           id: 198,
-          content: "До 1900 г., 1900–1950 гг., с 1950 г. по настоящее время.",
+          content: "С 1977 года до настоящего времени.",
           isRight: false,
         },
         {
           id: 199,
-          content: "До 1949 г., 1949–1990 гг., с 1990 г. по настоящее время.",
+          content: "1949-1976 годы.",
           isRight: false,
         },
         {
           id: 200,
-          content: "До 1959 г., 1959–1986 гг., с 1986 г. по настоящее время.",
+          content: "1959–1976 годы.",
           isRight: false,
         },
       ],
@@ -1324,17 +1324,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 202,
-          content: "Криптография.",
+          content: "Шифрование.",
           isRight: false,
         },
         {
           id: 203,
-          content: "Кодирование.",
+          content: "Копирование.",
           isRight: false,
         },
         {
           id: 204,
-          content: "Декодирование информации.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -1345,22 +1345,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 205,
-          content: "Схема дешифрования.",
+          content: "Дешифрование.",
           isRight: true,
         },
         {
           id: 206,
-          content: "Схема шифрования.",
+          content: "Шифрование.",
           isRight: false,
         },
         {
           id: 207,
-          content: "Схема кодирования.",
+          content: "Копирование.",
           isRight: false,
         },
         {
           id: 208,
-          content: "Схема аутентификации.",
+          content: "Симметричное шифрование.",
           isRight: false,
         },
       ],
@@ -1381,12 +1381,12 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 211,
-          content: "h(A)=A.",
+          content: "f(A)=B/2.",
           isRight: false,
         },
         {
           id: 212,
-          content: "k(B)=B.",
+          content: "Y = k(X).",
           isRight: false,
         },
       ],
@@ -1397,22 +1397,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 213,
-          content: "Стандарт симметричного блочного шифрования данных.",
+          content: "Алгоритм симметричного шифрования.",
           isRight: true,
         },
         {
           id: 214,
-          content: "Стандарт асимметричного шифрования.",
+          content: "Алгоритм асимметричного шифрования.",
           isRight: false,
         },
         {
           id: 215,
-          content: "Протокол передачи данных.",
+          content: "Алгоритм шифрования.",
           isRight: false,
         },
         {
           id: 216,
-          content: "Метод хеширования информации.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -1423,22 +1423,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 217,
-          content: "AES.",
+          content: "3DES.",
           isRight: true,
         },
         {
           id: 218,
-          content: "RSA.",
+          content: "AES.",
           isRight: false,
         },
         {
           id: 219,
-          content: "MD5.",
+          content: "RID.",
           isRight: false,
         },
         {
           id: 220,
-          content: "Blowfish.",
+          content: "2DES.",
           isRight: false,
         },
       ],
@@ -1449,22 +1449,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 221,
-          content: "64 бита.",
+          content: "64-бит.",
           isRight: true,
         },
         {
           id: 222,
-          content: "128 бит.",
+          content: "128-бит.",
           isRight: false,
         },
         {
           id: 223,
-          content: "256 бит.",
+          content: "32-бита.",
           isRight: false,
         },
         {
           id: 224,
-          content: "32 бита.",
+          content: "16-бит.",
           isRight: false,
         },
       ],
@@ -1475,22 +1475,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 225,
-          content: "64 или 128 бит.",
+          content: "128-192-256 бит.",
           isRight: true,
         },
         {
           id: 226,
-          content: "16 или 32 бита.",
+          content: "64-128-256 бит.",
           isRight: false,
         },
         {
           id: 227,
-          content: "256 или 512 бит.",
+          content: "32-64-128 бит.",
           isRight: false,
         },
         {
           id: 228,
-          content: "8 или 16 бит.",
+          content: "128-196-256 бит.",
           isRight: false,
         },
       ],
@@ -1501,22 +1501,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 229,
-          content: "Симметричный блочный алгоритм шифрования.",
+          content: "Криптографический алгоритм.",
           isRight: true,
         },
         {
           id: 230,
-          content: "Асимметричный алгоритм шифрования.",
+          content: "Симметричное блочное шифрование.",
           isRight: false,
         },
         {
           id: 231,
-          content: "Хеш-функция.",
+          content: "Асимметричное шифрование.",
           isRight: false,
         },
         {
           id: 232,
-          content: "Протокол маршрутизации.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -1532,17 +1532,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 234,
-          content: "1977 год.",
+          content: "1992 год.",
           isRight: false,
         },
         {
           id: 235,
-          content: "1985 год.",
+          content: "1994 год.",
           isRight: false,
         },
         {
           id: 236,
-          content: "2001 год.",
+          content: "1991 год.",
           isRight: false,
         },
       ],
@@ -1558,17 +1558,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 238,
-          content: "Рональд Ривест.",
+          content: "Майк Оливер.",
           isRight: false,
         },
         {
           id: 239,
-          content: "Уитфилд Диффи.",
+          content: "Бренд Хард.",
           isRight: false,
         },
         {
           id: 240,
-          content: "Ади Шамир.",
+          content: "Майкл Шрегер.",
           isRight: false,
         },
       ],
@@ -1584,17 +1584,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 242,
-          content: "128 бит.",
+          content: "16-бит.",
           isRight: false,
         },
         {
           id: 243,
-          content: "256 бит.",
+          content: "60-бит.",
           isRight: false,
         },
         {
           id: 244,
-          content: "32 бита.",
+          content: "8-бит.",
           isRight: false,
         },
       ],
@@ -1606,22 +1606,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 245,
-          content: "8 категорий.",
+          content: "3 этапа.",
           isRight: true,
         },
         {
           id: 246,
-          content: "3 категории.",
+          content: "2 этапа.",
           isRight: false,
         },
         {
           id: 247,
-          content: "5 категорий.",
+          content: "5 пунктов.",
           isRight: false,
         },
         {
           id: 248,
-          content: "10 категорий.",
+          content: "4 уровня.",
           isRight: false,
         },
       ],
@@ -1632,22 +1632,23 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 249,
-          content: "Свойство информации быть доступной только авторизованным пользователям.",
+          content:
+            "Зарегистрированный пользователь обращается только к необходимой информации в рамках своих должностных обязанностей.",
           isRight: true,
         },
         {
           id: 250,
-          content: "Свойство информации сохранять свою структуру и содержание.",
+          content: "Открытость для запросов зарегистрированных субъектов.",
           isRight: false,
         },
         {
           id: 251,
-          content: "Свойство информации быть всегда доступной для всех пользователей.",
+          content: "Закрытость данных для незарегистрированных и зарегистрированных лиц.",
           isRight: false,
         },
         {
           id: 252,
-          content: "Свойство информации передаваться по сети.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -1659,7 +1660,7 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 253,
-          content: "Конфиденциальность.",
+          content: "Доступность.",
           isRight: true,
         },
         {
@@ -1669,12 +1670,12 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 255,
-          content: "Доступность.",
+          content: "Конфиденциальность.",
           isRight: false,
         },
         {
           id: 256,
-          content: "Подлинность.",
+          content: "Все ответы верны.",
           isRight: false,
         },
       ],
@@ -1685,22 +1686,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 257,
-          content: "Метод шифрования с использованием двух связанных ключей — открытого и закрытого.",
+          content: "Метод шифрования, при котором для шифрования и дешифрования используются разные ключи.",
           isRight: true,
         },
         {
           id: 258,
-          content: "Метод шифрования с одним секретным ключом.",
+          content: "Метод шифрования, при котором для шифрования и дешифрования используется один ключ.",
           isRight: false,
         },
         {
           id: 259,
-          content: "Метод шифрования без использования ключей.",
+          content: "Метод шифрования, при котором шифрование осуществляется скрытно.",
           isRight: false,
         },
         {
           id: 260,
-          content: "Метод ручного шифрования сообщений.",
+          content: "Метод шифрования, при котором дешифрование является открытым, а шифрование — конфиденциальным.",
           isRight: false,
         },
       ],
@@ -1711,22 +1712,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 261,
-          content: "Ключ шифрования, доступный всем пользователям.",
+          content: "Открытый ключ, который известен всем и не является секретной частью алгоритма шифрования.",
           isRight: true,
         },
         {
           id: 262,
-          content: "Секретный ключ, известный только владельцу.",
+          content: "Неизвестный всем ключ.",
           isRight: false,
         },
         {
           id: 263,
-          content: "Ключ для удаления зашифрованных данных.",
+          content: "Открытый ключ, который является частью алгоритма шифрования и не является секретным.",
           isRight: false,
         },
         {
           id: 264,
-          content: "Ключ для проверки целостности файлов.",
+          content: "Неизвестный ключ, являющийся частью секретного алгоритма шифрования.",
           isRight: false,
         },
       ],
@@ -1737,22 +1738,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 265,
-          content: "Секретный ключ, известный только его владельцу и используемый для расшифровки.",
+          content: "Часть алгоритма, в которой хранятся секретные данные.",
           isRight: true,
         },
         {
           id: 266,
-          content: "Ключ, доступный всем пользователям сети.",
+          content: "Открытый ключ, известный всем, не являющийся секретной частью алгоритма шифрования.",
           isRight: false,
         },
         {
           id: 267,
-          content: "Ключ для общего использования при шифровании.",
+          content: "Неизвестный ключ, который не является частью секретного алгоритма шифрования.",
           isRight: false,
         },
         {
           id: 268,
-          content: "Ключ для подключения к сети.",
+          content: "Часть алгоритма, содержащая несекретные данные.",
           isRight: false,
         },
       ],
@@ -1763,22 +1764,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 269,
-          content: "Для шифрования и цифровой подписи в открытых каналах связи.",
+          content: "Шифрование и электронная подпись.",
           isRight: true,
         },
         {
           id: 270,
-          content: "Для управления базами данных.",
+          content: "Шифрование.",
           isRight: false,
         },
         {
           id: 271,
-          content: "Для маршрутизации трафика в сети.",
+          content: "Электронная подпись.",
           isRight: false,
         },
         {
           id: 272,
-          content: "Для архивирования файлов.",
+          content: "Закрытый ключ.",
           isRight: false,
         },
       ],
@@ -1789,22 +1790,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 273,
-          content: "2 типа: простые и сложные.",
+          content: "2 элемента.",
           isRight: true,
         },
         {
           id: 274,
-          content: "3 типа.",
+          content: "3 элемента.",
           isRight: false,
         },
         {
           id: 275,
-          content: "4 типа.",
+          content: "5 пунктов.",
           isRight: false,
         },
         {
           id: 276,
-          content: "5 типов.",
+          content: "4 уровня.",
           isRight: false,
         },
       ],
@@ -1815,22 +1816,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 277,
-          content: "Система, состоящая из множества взаимосвязанных подсистем.",
+          content: "Система, состоящая из элементов, основанных на различных правилах.",
           isRight: true,
         },
         {
           id: 278,
-          content: "Система, состоящая из одного элемента.",
+          content: "Система, состоящая из элементов, основанных на одинаковых правилах.",
           isRight: false,
         },
         {
           id: 279,
-          content: "Система, не имеющая структуры.",
+          content: "Система, состоящая из секретных элементов, основанных на различных правилах.",
           isRight: false,
         },
         {
           id: 280,
-          content: "Система, работающая без вмешательства человека.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -1841,22 +1842,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 281,
-          content: "Процедура присвоения и распознавания уникального признака субъекта или объекта.",
+          content: "Обращение к субъектам и объектам.",
           isRight: true,
         },
         {
           id: 282,
-          content: "Процесс шифрования данных.",
+          content: "Физическая защита данных.",
           isRight: false,
         },
         {
           id: 283,
-          content: "Процесс передачи данных по сети.",
+          content: "Передача данных в электронном виде.",
           isRight: false,
         },
         {
           id: 284,
-          content: "Процесс удаления файлов.",
+          content: "Паролирование данных.",
           isRight: false,
         },
       ],
@@ -1872,17 +1873,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 286,
-          content: "Аутентификатор.",
+          content: "Blowfish.",
           isRight: false,
         },
         {
           id: 287,
-          content: "Авторизатор.",
+          content: "Шифрование.",
           isRight: false,
         },
         {
           id: 288,
-          content: "Сертификат.",
+          content: "Авторизация.",
           isRight: false,
         },
       ],
@@ -1898,17 +1899,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 290,
-          content: "Идентификация.",
+          content: "Blowfish.",
           isRight: false,
         },
         {
           id: 291,
-          content: "Авторизация.",
+          content: "Шифрование.",
           isRight: false,
         },
         {
           id: 292,
-          content: "Шифрование.",
+          content: "Авторизация.",
           isRight: false,
         },
       ],
@@ -1929,12 +1930,12 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 295,
-          content: "Авторизатор.",
+          content: "Шифрование.",
           isRight: false,
         },
         {
           id: 296,
-          content: "Сертификат.",
+          content: "Авторизация.",
           isRight: false,
         },
       ],
@@ -1951,17 +1952,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 298,
-          content: "Идентификация.",
+          content: "Идентификатор.",
           isRight: false,
         },
         {
           id: 299,
-          content: "Аутентификация.",
+          content: "Аутентификатор.",
           isRight: false,
         },
         {
           id: 300,
-          content: "Регистрация.",
+          content: "Шифрование.",
           isRight: false,
         },
       ],
@@ -1975,22 +1976,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 301,
-          content: "3 проблемы.",
+          content: "2 элемента.",
           isRight: true,
         },
         {
           id: 302,
-          content: "2 проблемы.",
+          content: "3 элемента.",
           isRight: false,
         },
         {
           id: 303,
-          content: "4 проблемы.",
+          content: "4 уровня.",
           isRight: false,
         },
         {
           id: 304,
-          content: "5 проблем.",
+          content: "5 уровней.",
           isRight: false,
         },
       ],
@@ -2007,17 +2008,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 306,
-          content: "NTFS.",
+          content: "IT.",
           isRight: false,
         },
         {
           id: 307,
-          content: "EFS.",
+          content: "SSD.",
           isRight: false,
         },
         {
           id: 308,
-          content: "RFID.",
+          content: "TCP.",
           isRight: false,
         },
       ],
@@ -2028,22 +2029,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 309,
-          content: "3 принципа.",
+          content: "5 элементов.",
           isRight: true,
         },
         {
           id: 310,
-          content: "2 принципа.",
+          content: "3 элемента.",
           isRight: false,
         },
         {
           id: 311,
-          content: "4 принципа.",
+          content: "4 уровня.",
           isRight: false,
         },
         {
           id: 312,
-          content: "5 принципов.",
+          content: "2 уровня.",
           isRight: false,
         },
       ],
@@ -2054,22 +2055,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 313,
-          content: "Зеркалирование, чередование и контроль чётности.",
+          content: "Все ответы верны.",
           isRight: true,
         },
         {
           id: 314,
-          content: "Шифрование, кодирование и сжатие.",
+          content: "Чётность.",
           isRight: false,
         },
         {
           id: 315,
-          content: "Архивирование, копирование и удаление.",
+          content: "Дуплекс.",
           isRight: false,
         },
         {
           id: 316,
-          content: "Маршрутизация, передача и приём.",
+          content: "Striping.",
           isRight: false,
         },
       ],
@@ -2080,22 +2081,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 317,
-          content: "AES.",
+          content: "DES.",
           isRight: true,
         },
         {
           id: 318,
-          content: "DES.",
+          content: "ASC.",
           isRight: false,
         },
         {
           id: 319,
-          content: "RSA.",
+          content: "HTTP.",
           isRight: false,
         },
         {
           id: 320,
-          content: "MD5.",
+          content: "IT.",
           isRight: false,
         },
       ],
@@ -2112,17 +2113,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 322,
-          content: "Криптография.",
+          content: "Авторизация.",
           isRight: false,
         },
         {
           id: 323,
-          content: "Шифрование.",
+          content: "Чётность.",
           isRight: false,
         },
         {
           id: 324,
-          content: "Кодирование.",
+          content: "Идентификатор.",
           isRight: false,
         },
       ],
@@ -2133,22 +2134,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 325,
-          content: "Отказ в обслуживании.",
+          content: "Администрирование.",
           isRight: true,
         },
         {
           id: 326,
-          content: "Аутентификация пользователя.",
+          content: "Криптоанализ.",
           isRight: false,
         },
         {
           id: 327,
-          content: "Идентификация пользователя.",
+          content: "Авторизация.",
           isRight: false,
         },
         {
           id: 328,
-          content: "Авторизация пользователя.",
+          content: "Чётность.",
           isRight: false,
         },
       ],
@@ -2159,22 +2160,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 329,
-          content: "Секретная последовательность символов для подтверждения подлинности пользователя.",
+          content: "То, что известно пользователю и его партнёру по обмену информацией.",
           isRight: true,
         },
         {
           id: 330,
-          content: "Открытый идентификатор пользователя.",
+          content: "Набор открытых ключей.",
           isRight: false,
         },
         {
           id: 331,
-          content: "Электронный адрес пользователя.",
+          content: "Подтверждение подлинности субъекта.",
           isRight: false,
         },
         {
           id: 332,
-          content: "Сетевой адрес устройства.",
+          content: "Секретное слово.",
           isRight: false,
         },
       ],
@@ -2185,22 +2186,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 333,
-          content: "Пароль, который меняется при каждом входе пользователя.",
+          content: "Одноразовый пароль, который больше никогда не используется.",
           isRight: true,
         },
         {
           id: 334,
-          content: "Постоянный пароль пользователя.",
+          content: "Постоянно используемый открытый пароль.",
           isRight: false,
         },
         {
           id: 335,
-          content: "Пароль администратора системы.",
+          content: "Известный и постоянный пароль.",
           isRight: false,
         },
         {
           id: 336,
-          content: "Пароль, который пользователь не может изменить.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -2216,17 +2217,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 338,
-          content: "Интернет-протокол передачи данных.",
+          content: "Организация, контролирующая хакеров.",
           isRight: false,
         },
         {
           id: 339,
-          content: "Система шифрования информации.",
+          content: "Организация, обеспечивающая кибербезопасность.",
           isRight: false,
         },
         {
           id: 340,
-          content: "Метод архивирования данных.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -2237,22 +2238,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 341,
-          content: "Протокол управляющих сообщений Интернета.",
+          content: "Протокол передачи сообщений через Интернет.",
           isRight: true,
         },
         {
           id: 342,
-          content: "Протокол передачи файлов.",
+          content: "Протокол обработки данных.",
           isRight: false,
         },
         {
           id: 343,
-          content: "Протокол электронной почты.",
+          content: "Протокол стандартизации.",
           isRight: false,
         },
         {
           id: 344,
-          content: "Протокол шифрования данных.",
+          content: "Протокол ввода данных.",
           isRight: false,
         },
       ],
@@ -2263,22 +2264,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 345,
-          content: "ICMP.",
+          content: "RIP.",
           isRight: true,
         },
         {
           id: 346,
-          content: "FTP.",
+          content: "DES.",
           isRight: false,
         },
         {
           id: 347,
-          content: "HTTP.",
+          content: "ICMP.",
           isRight: false,
         },
         {
           id: 348,
-          content: "SMTP.",
+          content: "HTTP.",
           isRight: false,
         },
       ],
@@ -2290,22 +2291,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 349,
-          content: "Сетевые протоколы.",
+          content: "Сетевой протокол.",
           isRight: true,
         },
         {
           id: 350,
-          content: "Сетевые интерфейсы.",
+          content: "Базовый протокол.",
           isRight: false,
         },
         {
           id: 351,
-          content: "Сетевые драйверы.",
+          content: "Локальная сеть.",
           isRight: false,
         },
         {
           id: 352,
-          content: "Сетевые адаптеры.",
+          content: "Интернет-сеть.",
           isRight: false,
         },
       ],
@@ -2321,17 +2322,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 354,
-          content: "Стандарт.",
+          content: "Пароль.",
           isRight: false,
         },
         {
           id: 355,
-          content: "Алгоритм.",
+          content: "Процедура.",
           isRight: false,
         },
         {
           id: 356,
-          content: "Интерфейс.",
+          content: "Администрирование.",
           isRight: false,
         },
       ],
@@ -2342,22 +2343,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 357,
-          content: "Эталонная модель взаимодействия открытых систем, состоящая из 7 уровней.",
+          content: "Абстрактная модель для разработки сетевых соединений и сетевых протоколов.",
           isRight: true,
         },
         {
           id: 358,
-          content: "Протокол передачи данных в локальных сетях.",
+          content: "Набор правил и процедур, регулирующих выполнение некоторых соединений.",
           isRight: false,
         },
         {
           id: 359,
-          content: "Метод шифрования сетевого трафика.",
+          content: "Правила для подключения компьютеров к сети и обмена данными.",
           isRight: false,
         },
         {
           id: 360,
-          content: "Программа для управления сервером.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -2368,22 +2369,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 361,
-          content: "1969 год.",
+          content: "1992 год.",
           isRight: true,
         },
         {
           id: 362,
-          content: "1975 год.",
+          content: "1991 год.",
           isRight: false,
         },
         {
           id: 363,
-          content: "1983 год.",
+          content: "1994 год.",
           isRight: false,
         },
         {
           id: 364,
-          content: "1991 год.",
+          content: "1993 год.",
           isRight: false,
         },
       ],
@@ -2394,22 +2395,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 365,
-          content: "World Wide Web — Всемирная паутина.",
+          content: "World Wide Web.",
           isRight: true,
         },
         {
           id: 366,
-          content: "Wide World Wireless.",
+          content: "World Wide Web.",
           isRight: false,
         },
         {
           id: 367,
-          content: "World Wireless Web.",
+          content: "World Wide Web.",
           isRight: false,
         },
         {
           id: 368,
-          content: "Web World Wide.",
+          content: "Правильного ответа нет.",
           isRight: false,
         },
       ],
@@ -2425,12 +2426,12 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 370,
-          content: "Винт Серф.",
+          content: "Майкл Оуэн.",
           isRight: false,
         },
         {
           id: 371,
-          content: "Билл Гейтс.",
+          content: "Тим Беккер.",
           isRight: false,
         },
         {
@@ -2446,22 +2447,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 373,
-          content: "SQL-инъекции, XSS, CSRF.",
+          content: "Все ответы верны.",
           isRight: true,
         },
         {
           id: 374,
-          content: "DDoS, фишинг, спам.",
+          content: "DOS.",
           isRight: false,
         },
         {
           id: 375,
-          content: "Вирусы, черви, трояны.",
+          content: "DDoS.",
           isRight: false,
         },
         {
           id: 376,
-          content: "Брутфорс, спуфинг, снифинг.",
+          content: "Фишинг.",
           isRight: false,
         },
       ],
@@ -2472,22 +2473,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 377,
-          content: "Противоправное деяние, совершённое с использованием компьютерных технологий.",
+          content: "Технологическое преступление.",
           isRight: true,
         },
         {
           id: 378,
-          content: "Любое нарушение правил эксплуатации компьютера.",
+          content: "Физиологическое преступление.",
           isRight: false,
         },
         {
           id: 379,
-          content: "Использование компьютера в личных целях.",
+          content: "Техническое преступление.",
           isRight: false,
         },
         {
           id: 380,
-          content: "Установка пиратского ПО на компьютер.",
+          content: "Личное преступление.",
           isRight: false,
         },
       ],
@@ -2498,22 +2499,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 381,
-          content: "DoS, DDoS, спуфинг, снифинг.",
+          content: "все ответы верны",
           isRight: true,
         },
         {
           id: 382,
-          content: "Вирусы, черви, трояны.",
+          content: "DOS.",
           isRight: false,
         },
         {
           id: 383,
-          content: "SQL-инъекции, XSS.",
+          content: "DDoS.",
           isRight: false,
         },
         {
           id: 384,
-          content: "Фишинг, спам, мошенничество.",
+          content: "Phishing.",
           isRight: false,
         },
       ],
@@ -2524,22 +2525,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 385,
-          content: ".edu",
+          content: "edu.",
           isRight: true,
         },
         {
           id: 386,
-          content: ".com",
+          content: "com.",
           isRight: false,
         },
         {
           id: 387,
-          content: ".gov",
+          content: "gov.",
           isRight: false,
         },
         {
           id: 388,
-          content: ".org",
+          content: "net.",
           isRight: false,
         },
       ],
@@ -2550,22 +2551,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 389,
-          content: ".com",
+          content: "com.",
           isRight: true,
         },
         {
           id: 390,
-          content: ".edu",
+          content: "edu.",
           isRight: false,
         },
         {
           id: 391,
-          content: ".gov",
+          content: "net.",
           isRight: false,
         },
         {
           id: 392,
-          content: ".net",
+          content: "gov.",
           isRight: false,
         },
       ],
@@ -2576,22 +2577,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 393,
-          content: ".gov",
+          content: "gov.",
           isRight: true,
         },
         {
           id: 394,
-          content: ".com",
+          content: "net.",
           isRight: false,
         },
         {
           id: 395,
-          content: ".edu",
+          content: "org.",
           isRight: false,
         },
         {
           id: 396,
-          content: ".org",
+          content: "int.",
           isRight: false,
         },
       ],
@@ -2602,22 +2603,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 397,
-          content: "Идентификация рисков, защита, обнаружение, реагирование и восстановление.",
+          content: "Сотрудники, рабочие процессы и технологии должны дополнять друг друга.",
           isRight: true,
         },
         {
           id: 398,
-          content: "Только шифрование данных.",
+          content: "Рабочие процессы и технологии должны быть.",
           isRight: false,
         },
         {
           id: 399,
-          content: "Только установка антивируса.",
+          content: "Необходимость наличия сотрудников и рабочих процессов.",
           isRight: false,
         },
         {
           id: 400,
-          content: "Только использование пароля.",
+          content: "Технологии должны быть совершенными.",
           isRight: false,
         },
       ],
@@ -2631,22 +2632,23 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 401,
-          content: "Конфиденциальность, целостность, доступность.",
+          content:
+            "Необходимо выбирать надёжные пароли, быть внимательнее к электронным письмам и выполнять резервное копирование данных.",
           isRight: true,
         },
         {
           id: 402,
-          content: "Скорость, удобство, простота.",
+          content: "При этом осуществляется только резервное копирование данных.",
           isRight: false,
         },
         {
           id: 403,
-          content: "Шифрование, кодирование, хеширование.",
+          content: "Важно выбирать надёжные пароли.",
           isRight: false,
         },
         {
           id: 404,
-          content: "Аутентификация, регистрация, проверка.",
+          content: "Важно быть внимательнее к электронным письмам.",
           isRight: false,
         },
       ],
@@ -2657,22 +2659,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 405,
-          content: "Аппаратное обеспечение, программное обеспечение и данные.",
+          content: "Компьютеры, интеллектуальные устройства, маршрутизаторы, сети и облачные среды.",
           isRight: true,
         },
         {
           id: 406,
-          content: "Только данные пользователя.",
+          content: "Компьютеры, устройства, мобильная связь, антивирусы.",
           isRight: false,
         },
         {
           id: 407,
-          content: "Только сетевое оборудование.",
+          content: "Компьютеры, антивирусы и облачные среды.",
           isRight: false,
         },
         {
           id: 408,
-          content: "Только программное обеспечение.",
+          content: "Интеллектуальные сети, мобильная связь, антивирусы.",
           isRight: false,
         },
       ],
@@ -2683,22 +2685,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 409,
-          content: "Вредоносное ПО, фишинг, DDoS, социальная инженерия.",
+          content: "Вредоносные программы, зловредные приложения, социальная инженерия, программы фишинга.",
           isRight: true,
         },
         {
           id: 410,
-          content: "Только вирусы и трояны.",
+          content: "Интернет, программы фишинга, вредоносные программы.",
           isRight: false,
         },
         {
           id: 411,
-          content: "Только спам и фишинг.",
+          content: "Недобросовестные пользователи, социальная инженерия.",
           isRight: false,
         },
         {
           id: 412,
-          content: "Только DDoS-атаки.",
+          content: "Входящие письма, программы, фишинг.",
           isRight: false,
         },
       ],
@@ -2709,22 +2711,24 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 413,
-          content: "Метод манипуляции людьми с целью получения конфиденциальной информации.",
+          content:
+            "Тактика, направленная на раскрытие конфиденциальной информации пользователей недобросовестными лицами.",
           isRight: true,
         },
         {
           id: 414,
-          content: "Метод проектирования компьютерных сетей.",
+          content:
+            "Тип вредоносного программного обеспечения, направленный на требование выкупа путём блокировки доступа к файлам на компьютере.",
           isRight: false,
         },
         {
           id: 415,
-          content: "Метод шифрования данных при передаче.",
+          content: "Направлено на несанкционированный доступ к компьютеру или повреждение его системы.",
           isRight: false,
         },
         {
           id: 416,
-          content: "Метод создания социальных сетей.",
+          content: "Рассылка поддельных электронных писем, выглядящих как сообщения от надёжного источника.",
           isRight: false,
         },
       ],
@@ -2735,22 +2739,23 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 417,
-          content: "Вид мошенничества для получения личных данных через поддельные сообщения и сайты.",
+          content: "Рассылка поддельных электронных писем, которые выглядят как сообщения от надёжного источника.",
           isRight: true,
         },
         {
           id: 418,
-          content: "Метод шифрования электронной почты.",
+          content: "Направлено на несанкционированный доступ к компьютеру или нанесение ущерба его системе.",
           isRight: false,
         },
         {
           id: 419,
-          content: "Программа для защиты от вирусов.",
+          content: "Тактика, направленная на раскрытие конфиденциальных данных пользователей.",
           isRight: false,
         },
         {
           id: 420,
-          content: "Способ передачи файлов по сети.",
+          content:
+            "Тип вредоносного программного обеспечения, блокирующий доступ к файлам на компьютере и требующий выкупа.",
           isRight: false,
         },
       ],
@@ -2761,22 +2766,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 421,
-          content: "Фишинг.",
+          content: "Программа фишинга.",
           isRight: true,
         },
         {
           id: 422,
-          content: "DDoS-атака.",
+          content: "Агрессивные программы.",
           isRight: false,
         },
         {
           id: 423,
-          content: "Атака нулевого дня.",
+          content: "Вредоносные программы.",
           isRight: false,
         },
         {
           id: 424,
-          content: "SQL-инъекция.",
+          content: "Социальная инженерия.",
           isRight: false,
         },
       ],
@@ -2787,22 +2792,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 425,
-          content: "DDoS-атака.",
+          content: "DDoS.",
           isRight: true,
         },
         {
           id: 426,
-          content: "DoS-атака.",
+          content: "DOS.",
           isRight: false,
         },
         {
           id: 427,
-          content: "Фишинговая атака.",
+          content: "DDoS и DOS.",
           isRight: false,
         },
         {
           id: 428,
-          content: "Brute-force атака.",
+          content: "TCP.",
           isRight: false,
         },
       ],
@@ -2813,22 +2818,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 429,
-          content: "Руткиты.",
+          content: "Троянские программы.",
           isRight: true,
         },
         {
           id: 430,
-          content: "Антивирусы.",
+          content: "Агрессивные программы.",
           isRight: false,
         },
         {
           id: 431,
-          content: "Браузеры.",
+          content: "Вредоносные программы.",
           isRight: false,
         },
         {
           id: 432,
-          content: "Текстовые редакторы.",
+          content: "Программы фишинга.",
           isRight: false,
         },
       ],
@@ -2839,22 +2844,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 433,
-          content: "В скрытом и активном режимах.",
+          content: "Фоновый режим.",
           isRight: true,
         },
         {
           id: 434,
-          content: "Только в открытом режиме.",
+          content: "В обычном режиме.",
           isRight: false,
         },
         {
           id: 435,
-          content: "Только в режиме ожидания.",
+          content: "Сложный режим.",
           isRight: false,
         },
         {
           id: 436,
-          content: "Только в режиме передачи данных.",
+          content: "Фоновый и обычный режимы.",
           isRight: false,
         },
       ],
@@ -2865,22 +2870,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 437,
-          content: "Последовательно, по заданным правилам.",
+          content: "Последовательно анализирует проходящий трафик, выявляет нестандартные действия и ошибки в данных.",
           isRight: true,
         },
         {
           id: 438,
-          content: "Случайным образом.",
+          content: "Обнаруживает ошибки.",
           isRight: false,
         },
         {
           id: 439,
-          content: "Параллельно без правил.",
+          content: "Последовательно анализирует проходящий трафик.",
           isRight: false,
         },
         {
           id: 440,
-          content: "Только при ручном запуске.",
+          content: "Ответы A и B.",
           isRight: false,
         },
       ],
@@ -2891,22 +2896,23 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 441,
-          content: "Для нарушения работы сервиса, шантажа или конкурентной борьбы.",
+          content:
+            "Личная неприязнь, тестирование, недобросовестная конкуренция, вымогательство денег или шантаж с использованием DDoS-атак.",
           isRight: true,
         },
         {
           id: 442,
-          content: "Для тестирования сетевого оборудования.",
+          content: "Последовательно анализирует проходящий трафик, выявляет нестандартные действия и ошибки в данных.",
           isRight: false,
         },
         {
           id: 443,
-          content: "Для шифрования трафика.",
+          content: "По личной неприязни.",
           isRight: false,
         },
         {
           id: 444,
-          content: "Для оптимизации работы серверов.",
+          content: "Ответы B и C.",
           isRight: false,
         },
       ],
@@ -2917,22 +2923,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 445,
-          content: "В 1988 году (червь Морриса).",
+          content: "1982 год.",
           isRight: true,
         },
         {
           id: 446,
-          content: "В 1995 году.",
+          content: "1985 год.",
           isRight: false,
         },
         {
           id: 447,
-          content: "В 2000 году.",
+          content: "1988 год.",
           isRight: false,
         },
         {
           id: 448,
-          content: "В 1970 году.",
+          content: "1992 год.",
           isRight: false,
         },
       ],
@@ -2943,22 +2949,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 449,
-          content: "В 2006 году в Лос-Анджелесе.",
+          content: "2006 год, Лос-Анджелес.",
           isRight: true,
         },
         {
           id: 450,
-          content: "В 1999 году в Нью-Йорке.",
+          content: "2006 год, США.",
           isRight: false,
         },
         {
           id: 451,
-          content: "В 2010 году в Лондоне.",
+          content: "2015 год, Лос-Анджелес.",
           isRight: false,
         },
         {
           id: 452,
-          content: "В 2015 году в Токио.",
+          content: "2015 год, США.",
           isRight: false,
         },
       ],
@@ -2969,22 +2975,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 453,
-          content: "В 2015 году.",
+          content: "2015 год.",
           isRight: true,
         },
         {
           id: 454,
-          content: "В 2010 году.",
+          content: "2006 год.",
           isRight: false,
         },
         {
           id: 455,
-          content: "В 2018 году.",
+          content: "2007 год.",
           isRight: false,
         },
         {
           id: 456,
-          content: "В 2020 году.",
+          content: "2005 год.",
           isRight: false,
         },
       ],
@@ -2995,22 +3001,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 457,
-          content: "В 1988 году.",
+          content: "27 апреля 2007 года.",
           isRight: true,
         },
         {
           id: 458,
-          content: "В 1995 году.",
+          content: "18 марта 2007 года.",
           isRight: false,
         },
         {
           id: 459,
-          content: "В 2000 году.",
+          content: "27 апреля 2006 года.",
           isRight: false,
         },
         {
           id: 460,
-          content: "В 1975 году.",
+          content: "18 марта 2006 года.",
           isRight: false,
         },
       ],
@@ -3021,22 +3027,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 461,
-          content: "Поиск и устранение уязвимостей системы для повышения её безопасности.",
+          content: "Определяет уровень безопасности и оценивает риски компании.",
           isRight: true,
         },
         {
           id: 462,
-          content: "Кража конфиденциальных данных.",
+          content: "Обнаруживает ошибки в системе.",
           isRight: false,
         },
         {
           id: 463,
-          content: "Распространение вредоносного ПО.",
+          content: "Обнаруживает внутренние и внешние коммуникации.",
           isRight: false,
         },
         {
           id: 464,
-          content: "Проведение DDoS-атак на серверы.",
+          content: "Ответы B и C.",
           isRight: false,
         },
       ],
@@ -3047,22 +3053,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 465,
-          content: "Совокупность взаимосвязей и устойчивых отношений элементов системы.",
+          content: "Совокупность связей и устойчивых отношений между элементами системы.",
           isRight: true,
         },
         {
           id: 466,
-          content: "Набор отдельных элементов без связей.",
+          content: "Определяет уровень безопасности и оценивает риски компании.",
           isRight: false,
         },
         {
           id: 467,
-          content: "Поток данных по сети.",
+          content: "Совокупность данных, движущихся в информационной сфере на основе решений о коммуникации.",
           isRight: false,
         },
         {
           id: 468,
-          content: "Программное обеспечение системы.",
+          content: "Совокупность, не зависящая от формы и состояния информации.",
           isRight: false,
         },
       ],
@@ -3073,22 +3079,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 469,
-          content: "На 2 типа: простые и сложные.",
+          content: "2 типа: простая и сложная информационная система.",
           isRight: true,
         },
         {
           id: 470,
-          content: "На 3 типа.",
+          content: "3 типа: поддельная, простая и сложная.",
           isRight: false,
         },
         {
           id: 471,
-          content: "На 4 типа.",
+          content: "Простая.",
           isRight: false,
         },
         {
           id: 472,
-          content: "На 5 типов.",
+          content: "Сложная.",
           isRight: false,
         },
       ],
@@ -3099,22 +3105,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 473,
-          content: "Система, состоящая из одного или нескольких связанных элементов.",
+          content: "Система, состоящая из элементов, основанных на одинаковых правилах.",
           isRight: true,
         },
         {
           id: 474,
-          content: "Система с большим количеством подсистем.",
+          content: "Система, состоящая из элементов, подчиняющихся различным правилам.",
           isRight: false,
         },
         {
           id: 475,
-          content: "Система без элементов.",
+          content: "Независимая от формы и состояния информации совокупность.",
           isRight: false,
         },
         {
           id: 476,
-          content: "Система, работающая только в автоматическом режиме.",
+          content: "Связи и устойчивые отношения между элементами системы.",
           isRight: false,
         },
       ],
@@ -3125,22 +3131,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 477,
-          content: "Система, состоящая из множества взаимосвязанных подсистем.",
+          content: "Система, состоящая из элементов, подчиняющихся различным правилам.",
           isRight: true,
         },
         {
           id: 478,
-          content: "Система с одним элементом.",
+          content: "Система, состоящая из элементов, основанных на одинаковых правилах.",
           isRight: false,
         },
         {
           id: 479,
-          content: "Система без подсистем.",
+          content: "Независимая от формы и состояния информации совокупность.",
           isRight: false,
         },
         {
           id: 480,
-          content: "Система ручного управления.",
+          content: "Связи и устойчивые отношения между элементами системы.",
           isRight: false,
         },
       ],
@@ -3151,22 +3157,24 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 481,
-          content: "Среда, обеспечивающая сбор, передачу, хранение, обработку и распространение информации.",
+          content:
+            "Территориально распределённые компании, связанные друг с другом через средства связи и телекоммуникаций.",
           isRight: true,
         },
         {
           id: 482,
-          content: "Совокупность только аппаратных средств.",
+          content:
+            "Среда, обеспечивающая сбор, передачу, хранение, автоматическую обработку и распространение информации в обществе.",
           isRight: false,
         },
         {
           id: 483,
-          content: "Только сеть Интернет.",
+          content: "Независимая от формы и состояния информации совокупность.",
           isRight: false,
         },
         {
           id: 484,
-          content: "Только программное обеспечение организации.",
+          content: "Связи и устойчивые отношения между элементами системы.",
           isRight: false,
         },
       ],
@@ -3177,22 +3185,23 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 485,
-          content: "Совокупность специалистов, информационных ресурсов, документов и технологий.",
+          content:
+            "Среда, обеспечивающая сбор, передачу, хранение, автоматическую обработку и распространение информации в обществе.",
           isRight: true,
         },
         {
           id: 486,
-          content: "Только база данных предприятия.",
+          content: "Территориально распределённые компании, связанные между собой средствами связи и телекоммуникаций.",
           isRight: false,
         },
         {
           id: 487,
-          content: "Только локальная сеть.",
+          content: "Независимая от формы и состояния информации совокупность.",
           isRight: false,
         },
         {
           id: 488,
-          content: "Только сервер организации.",
+          content: "Связи и устойчивые отношения между элементами системы.",
           isRight: false,
         },
       ],
@@ -3204,22 +3213,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 489,
-          content: "Более чем на 10%.",
+          content: "5%.",
           isRight: true,
         },
         {
           id: 490,
-          content: "На 2%.",
+          content: "10%.",
           isRight: false,
         },
         {
           id: 491,
-          content: "На 0,5%.",
+          content: "8%.",
           isRight: false,
         },
         {
           id: 492,
-          content: "Не увеличивается.",
+          content: "6%.",
           isRight: false,
         },
       ],
@@ -3235,17 +3244,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 494,
-          content: "3 показателя.",
+          content: "5 показателей.",
           isRight: false,
         },
         {
           id: 495,
-          content: "10 показателей.",
+          content: "7 показателей.",
           isRight: false,
         },
         {
           id: 496,
-          content: "4 показателя.",
+          content: "10 пунктов.",
           isRight: false,
         },
       ],
@@ -3256,22 +3265,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 497,
-          content: "Стек протоколов TCP/IP.",
+          content: "Протокол TCP/IP.",
           isRight: true,
         },
         {
           id: 498,
-          content: "Протокол OSI.",
+          content: "Протокол передачи данных.",
           isRight: false,
         },
         {
           id: 499,
-          content: "Стек протоколов RAID.",
+          content: "Межсетевой протокол.",
           isRight: false,
         },
         {
           id: 500,
-          content: "Протокол EFS.",
+          content: "Открытый протокол.",
           isRight: false,
         },
       ],
@@ -3285,22 +3294,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 501,
-          content: "Открытый стандарт, маршрутизируемость, независимость от среды передачи.",
+          content: "Все ответы верны.",
           isRight: true,
         },
         {
           id: 502,
-          content: "Закрытый стандарт и зависимость от производителя.",
+          content: "Не зависит от физической среды передачи данных.",
           isRight: false,
         },
         {
           id: 503,
-          content: "Только для локальных сетей.",
+          content: "Уникальная адресация, высокоуровневые стандартные протоколы.",
           isRight: false,
         },
         {
           id: 504,
-          content: "Только для беспроводных сетей.",
+          content: "Стандарты открытых протоколов, независимые от программного и аппаратного обеспечения.",
           isRight: false,
         },
       ],
@@ -3311,22 +3320,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 505,
-          content: "Сегменты TCP и датаграммы UDP.",
+          content: "Сегменты, дейтаграммы.",
           isRight: true,
         },
         {
           id: 506,
-          content: "Кадры Ethernet.",
+          content: "Пакеты.",
           isRight: false,
         },
         {
           id: 507,
-          content: "Пакеты IP.",
+          content: "Биты.",
           isRight: false,
         },
         {
           id: 508,
-          content: "Биты и сигналы.",
+          content: "Данные.",
           isRight: false,
         },
       ],
@@ -3337,22 +3346,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 509,
-          content: "Пакеты IP.",
+          content: "Пакеты.",
           isRight: true,
         },
         {
           id: 510,
-          content: "Сегменты TCP.",
+          content: "Биты.",
           isRight: false,
         },
         {
           id: 511,
-          content: "Кадры Ethernet.",
+          content: "Данные.",
           isRight: false,
         },
         {
           id: 512,
-          content: "Биты и сигналы.",
+          content: "Сегменты.",
           isRight: false,
         },
       ],
@@ -3363,22 +3372,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 513,
-          content: "Обеспечение взаимодействия пользовательских приложений с сетью.",
+          content: "Обращение к сетевым услугам.",
           isRight: true,
         },
         {
           id: 514,
-          content: "Передача битов по физическому каналу.",
+          content: "Представление данных и их шифрование.",
           isRight: false,
         },
         {
           id: 515,
-          content: "Маршрутизация пакетов между узлами.",
+          content: "Управление сеансом связи.",
           isRight: false,
         },
         {
           id: 516,
-          content: "Управление сеансом связи.",
+          content: "Физическая адресация.",
           isRight: false,
         },
       ],
@@ -3389,22 +3398,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 517,
-          content: "Преобразование, сжатие и шифрование данных.",
+          content: "Представление данных и их шифрование.",
           isRight: true,
         },
         {
           id: 518,
-          content: "Передача битов по физическому каналу.",
+          content: "Обращение к сетевым услугам.",
           isRight: false,
         },
         {
           id: 519,
-          content: "Установка и завершение соединения.",
+          content: "Управление сеансом связи.",
           isRight: false,
         },
         {
           id: 520,
-          content: "Маршрутизация пакетов.",
+          content: "Физическая адресация.",
           isRight: false,
         },
       ],
@@ -3415,22 +3424,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 521,
-          content: "Установка, поддержка и завершение сеансов связи между приложениями.",
+          content: "Управление сеансом связи.",
           isRight: true,
         },
         {
           id: 522,
-          content: "Передача битов по проводам.",
+          content: "Представление данных и их шифрование.",
           isRight: false,
         },
         {
           id: 523,
-          content: "Шифрование данных.",
+          content: "Обращение к сетевым услугам.",
           isRight: false,
         },
         {
           id: 524,
-          content: "Маршрутизация пакетов.",
+          content: "Физическая адресация.",
           isRight: false,
         },
       ],
@@ -3441,22 +3450,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 525,
-          content: "Маршрутизация пакетов между сетями.",
+          content: "Физическая адресация.",
           isRight: true,
         },
         {
           id: 526,
-          content: "Передача битов по физическому каналу.",
+          content: "Управление сеансом связи.",
           isRight: false,
         },
         {
           id: 527,
-          content: "Шифрование данных.",
+          content: "Представление данных и их шифрование.",
           isRight: false,
         },
         {
           id: 528,
-          content: "Управление сеансом.",
+          content: "Обращение к сетевым службам.",
           isRight: false,
         },
       ],
@@ -3467,22 +3476,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 529,
-          content: "Кабели, разъёмы, повторители, концентраторы.",
+          content: "USB, кабель, радиоканал.",
           isRight: true,
         },
         {
           id: 530,
-          content: "Маршрутизаторы, IP-адреса.",
+          content: "PPP, Ethernet, PSL.",
           isRight: false,
         },
         {
           id: 531,
-          content: "TCP, UDP, порты.",
+          content: "HTTP, FTP.",
           isRight: false,
         },
         {
           id: 532,
-          content: "HTTP, FTP, SMTP.",
+          content: "RPC, PAP.",
           isRight: false,
         },
       ],
@@ -3493,22 +3502,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 533,
-          content: "MAC-адреса, коммутаторы, кадры Ethernet.",
+          content: "IPv6, IPv4.",
           isRight: true,
         },
         {
           id: 534,
-          content: "Маршрутизаторы, IP-адреса.",
+          content: "PPP, Ethernet, PSL.",
           isRight: false,
         },
         {
           id: 535,
-          content: "TCP, UDP, порты.",
+          content: "HTTP, FTP.",
           isRight: false,
         },
         {
           id: 536,
-          content: "HTTP, FTP, SMTP.",
+          content: "RPC, PAP.",
           isRight: false,
         },
       ],
@@ -3519,22 +3528,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 537,
-          content: "TCP, UDP, порты, сегменты.",
+          content: "TCP, UDP.",
           isRight: true,
         },
         {
           id: 538,
-          content: "MAC-адреса, коммутаторы.",
+          content: "PPP, Ethernet, PSL.",
           isRight: false,
         },
         {
           id: 539,
-          content: "Маршрутизаторы, IP-адреса.",
+          content: "HTTP, FTP.",
           isRight: false,
         },
         {
           id: 540,
-          content: "Кабели, разъёмы.",
+          content: "RPC, PAP.",
           isRight: false,
         },
       ],
@@ -3545,22 +3554,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 541,
-          content: "Статическая и динамическая маршрутизация.",
+          content: "Статические, динамические.",
           isRight: true,
         },
         {
           id: 542,
-          content: "Только статическая маршрутизация.",
+          content: "Статический, физический.",
           isRight: false,
         },
         {
           id: 543,
-          content: "Только динамическая маршрутизация.",
+          content: "Динамический, физический.",
           isRight: false,
         },
         {
           id: 544,
-          content: "Только ручная маршрутизация.",
+          content: "Физическая, логическая.",
           isRight: false,
         },
       ],
@@ -3571,22 +3580,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 545,
-          content: "Статическая маршрутизация.",
+          content: "Статические.",
           isRight: true,
         },
         {
           id: 546,
-          content: "Динамическая маршрутизация.",
+          content: "Динамический.",
           isRight: false,
         },
         {
           id: 547,
-          content: "Адаптивная маршрутизация.",
+          content: "Физический.",
           isRight: false,
         },
         {
           id: 548,
-          content: "Автоматическая маршрутизация.",
+          content: "Логическая.",
           isRight: false,
         },
       ],
@@ -3597,22 +3606,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 549,
-          content: "Наука о шифрах и методах их раскрытия.",
+          content: "Секретное слово.",
           isRight: true,
         },
         {
           id: 550,
-          content: "Наука о компьютерных сетях.",
+          content: "Ключевое слово.",
           isRight: false,
         },
         {
           id: 551,
-          content: "Наука о хранении данных.",
+          content: "Секретный язык.",
           isRight: false,
         },
         {
           id: 552,
-          content: "Наука об операционных системах.",
+          content: "Кодирование.",
           isRight: false,
         },
       ],
@@ -3633,12 +3642,12 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 555,
-          content: "Стеганография.",
+          content: "Криптология.",
           isRight: false,
         },
         {
           id: 556,
-          content: "Кодирование.",
+          content: "Все ответы верны.",
           isRight: false,
         },
       ],
@@ -3659,12 +3668,12 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 559,
-          content: "Шифрование.",
+          content: "Криптология.",
           isRight: false,
         },
         {
           id: 560,
-          content: "Кодирование.",
+          content: "Шифр.",
           isRight: false,
         },
       ],
@@ -3675,22 +3684,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 561,
-          content: "Шифрование.",
+          content: "Шифр.",
           isRight: true,
         },
         {
           id: 562,
-          content: "Дешифрование.",
+          content: "Криптоанализ.",
           isRight: false,
         },
         {
           id: 563,
-          content: "Декодирование.",
+          content: "Криптография.",
           isRight: false,
         },
         {
           id: 564,
-          content: "Криптоанализ.",
+          content: "Шифрование.",
           isRight: false,
         },
       ],
@@ -3706,17 +3715,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 566,
-          content: "Зашифрованный текст.",
+          content: "Зашифрованное сообщение.",
           isRight: false,
         },
         {
           id: 567,
-          content: "Криптограмма.",
+          content: "Шифрование.",
           isRight: false,
         },
         {
           id: 568,
-          content: "Цифровой ключ.",
+          content: "Схема шифрования.",
           isRight: false,
         },
       ],
@@ -3732,17 +3741,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 570,
-          content: "Шифр.",
+          content: "Открытый текст.",
           isRight: false,
         },
         {
           id: 571,
-          content: "Алгоритм.",
+          content: "Шифр.",
           isRight: false,
         },
         {
           id: 572,
-          content: "Текст.",
+          content: "Дешифрование.",
           isRight: false,
         },
       ],
@@ -3753,22 +3762,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 573,
-          content: "Симметричное шифрование.",
+          content: "Симметричный.",
           isRight: true,
         },
         {
           id: 574,
-          content: "Асимметричное шифрование.",
+          content: "Асимметричный.",
           isRight: false,
         },
         {
           id: 575,
-          content: "Гибридное шифрование.",
+          content: "Цезарь.",
           isRight: false,
         },
         {
           id: 576,
-          content: "Хеширование.",
+          content: "Магический квадрат.",
           isRight: false,
         },
       ],
@@ -3910,12 +3919,12 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 597,
-          content: "RSA.",
+          content: "RSA",
           isRight: true,
         },
         {
           id: 598,
-          content: "DES.",
+          content: "DES",
           isRight: false,
         },
         {
@@ -3939,22 +3948,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 601,
-          content: "Шифрование Эль-Гамаля.",
+          content: "Elgamal",
           isRight: true,
         },
         {
           id: 602,
-          content: "RSA.",
+          content: "DES",
           isRight: false,
         },
         {
           id: 603,
-          content: "DES.",
+          content: "AES.",
           isRight: false,
         },
         {
           id: 604,
-          content: "AES.",
+          content: "Blowfish.",
           isRight: false,
         },
       ],
@@ -3965,22 +3974,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 605,
-          content: "Триада CIA: конфиденциальность, целостность, доступность.",
+          content: "CIA триада.",
           isRight: true,
         },
         {
           id: 606,
-          content: "Триада AAA: аутентификация, авторизация, аудит.",
+          content: "3DES",
           isRight: false,
         },
         {
           id: 607,
-          content: "Триада RAS: надёжность, доступность, удобство.",
+          content: "RC2.",
           isRight: false,
         },
         {
           id: 608,
-          content: "Триада IDA: идентификация, доступ, аудит.",
+          content: "DDES.",
           isRight: false,
         },
       ],
@@ -4007,7 +4016,7 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 612,
-          content: "Регистрация.",
+          content: "Идентификатор.",
           isRight: false,
         },
       ],
@@ -4023,17 +4032,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 614,
-          content: "Пароль.",
+          content: "Аутентификация.",
           isRight: false,
         },
         {
           id: 615,
-          content: "Токен.",
+          content: "Авторизация.",
           isRight: false,
         },
         {
           id: 616,
-          content: "Сертификат.",
+          content: "Идентификация.",
           isRight: false,
         },
       ],
@@ -4059,7 +4068,7 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 620,
-          content: "Регистрация.",
+          content: "Идентификатор.",
           isRight: false,
         },
       ],
@@ -4070,22 +4079,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 621,
-          content: "Ввод имени пользователя (логина).",
+          content: "RFID, штрих-коды, биометрия, карты с магнитной полосой.",
           isRight: true,
         },
         {
           id: 622,
-          content: "Ввод пароля.",
+          content: "Пароли, RFID, штрих-коды, смарт-карта + PIN.",
           isRight: false,
         },
         {
           id: 623,
-          content: "Предоставление прав доступа.",
+          content: "Биометрия, RFID, eToken+PIN, штрих-коды.",
           isRight: false,
         },
         {
           id: 624,
-          content: "Проверка цифровой подписи.",
+          content: "Пароли, биометрия, eToken+PIN, смарт-карта + PIN.",
           isRight: false,
         },
       ],
@@ -4096,22 +4105,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 625,
-          content: "Ввод пароля пользователя.",
+          content: "Пароли, смарт-карта + PIN, eToken + PIN.",
           isRight: true,
         },
         {
           id: 626,
-          content: "Ввод имени пользователя.",
+          content: "Пароли, RFID, штрих-коды, смарт-карта + PIN.",
           isRight: false,
         },
         {
           id: 627,
-          content: "Назначение прав доступа.",
+          content: "Биометрия, RFID, eToken+PIN, штрих-коды.",
           isRight: false,
         },
         {
           id: 628,
-          content: "Регистрация в системе.",
+          content: "Пароли, биометрия, eToken+PIN, смарт-карта + PIN.",
           isRight: false,
         },
       ],
@@ -4122,22 +4131,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 629,
-          content: "Двухфакторная аутентификация с SMS-кодом.",
+          content: "Многоразовые пароли, одноразовые пароли, OTP.",
           isRight: true,
         },
         {
           id: 630,
-          content: "Простая аутентификация по паролю.",
+          content: "Многоразовые пароли, OTP, смарт-карта + PIN.",
           isRight: false,
         },
         {
           id: 631,
-          content: "Только ввод имени пользователя.",
+          content: "Многоразовые пароли, OTP, eToken+PIN.",
           isRight: false,
         },
         {
           id: 632,
-          content: "Анонимный доступ к системе.",
+          content: "Смарт-карта + PIN, eToken + PIN.",
           isRight: false,
         },
       ],
@@ -4148,22 +4157,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 633,
-          content: "Использование криптографических методов и сертификатов.",
+          content: "Смарт-карта + PIN, eToken + PIN.",
           isRight: true,
         },
         {
           id: 634,
-          content: "Только пароль из 4 символов.",
+          content: "Многоразовые пароли, одноразовые пароли, OTP.",
           isRight: false,
         },
         {
           id: 635,
-          content: "Только имя пользователя.",
+          content: "Многоразовые пароли, OTP, смарт-карта + PIN.",
           isRight: false,
         },
         {
           id: 636,
-          content: "Анонимный вход в систему.",
+          content: "Многоразовые пароли, OTP, eToken + PIN.",
           isRight: false,
         },
       ],
@@ -4179,17 +4188,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 638,
-          content: "NTFS.",
+          content: "RFID.",
           isRight: false,
         },
         {
           id: 639,
-          content: "EFS.",
+          content: "NTFS.",
           isRight: false,
         },
         {
           id: 640,
-          content: "FAT.",
+          content: "EFS.",
           isRight: false,
         },
       ],
@@ -4200,22 +4209,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 641,
-          content: "RAID 1.",
+          content: "Зеркалирование.",
           isRight: true,
         },
         {
           id: 642,
-          content: "RAID 0.",
+          content: "Дуплекс.",
           isRight: false,
         },
         {
           id: 643,
-          content: "RAID 5.",
+          content: "Последовательность.",
           isRight: false,
         },
         {
           id: 644,
-          content: "RAID 6.",
+          content: "Чётность.",
           isRight: false,
         },
       ],
@@ -4226,22 +4235,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 645,
-          content: "RAID 2.",
+          content: "Дуплекс.",
           isRight: true,
         },
         {
           id: 646,
-          content: "RAID 0.",
+          content: "Зеркалирование.",
           isRight: false,
         },
         {
           id: 647,
-          content: "RAID 1.",
+          content: "Последовательность.",
           isRight: false,
         },
         {
           id: 648,
-          content: "RAID 5.",
+          content: "Чётность.",
           isRight: false,
         },
       ],
@@ -4252,22 +4261,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 649,
-          content: "RAID 0 (чередование).",
+          content: "Последовательность.",
           isRight: true,
         },
         {
           id: 650,
-          content: "RAID 1.",
+          content: "Дуплекс.",
           isRight: false,
         },
         {
           id: 651,
-          content: "RAID 5.",
+          content: "Зеркалирование.",
           isRight: false,
         },
         {
           id: 652,
-          content: "RAID 6.",
+          content: "Чётность.",
           isRight: false,
         },
       ],
@@ -4278,22 +4287,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 653,
-          content: "RAID 10 (1+0).",
+          content: "Чётность.",
           isRight: true,
         },
         {
           id: 654,
-          content: "RAID 0.",
+          content: "Дуплекс.",
           isRight: false,
         },
         {
           id: 655,
-          content: "RAID 1.",
+          content: "Последовательность.",
           isRight: false,
         },
         {
           id: 656,
-          content: "RAID 5.",
+          content: "Зеркалирование.",
           isRight: false,
         },
       ],
@@ -4304,22 +4313,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 657,
-          content: "RAID 0, 1, 2, 3, 4, 5, 6, 10.",
+          content: "Аппаратные и программные.",
           isRight: true,
         },
         {
           id: 658,
-          content: "Только RAID 0 и RAID 1.",
+          content: "Аппаратные и технические.",
           isRight: false,
         },
         {
           id: 659,
-          content: "Только RAID 5.",
+          content: "Программное и базовое.",
           isRight: false,
         },
         {
           id: 660,
-          content: "Только RAID 10.",
+          content: "Технические и базовые.",
           isRight: false,
         },
       ],
@@ -4387,7 +4396,7 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 670,
-          content: "4 права.",
+          content: "4.",
           isRight: false,
         },
         {
@@ -4434,22 +4443,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 677,
-          content: "Утилиты безопасного удаления и шредеры (Eraser, sdelete).",
+          content: "Программные средства.",
           isRight: true,
         },
         {
           id: 678,
-          content: "Только корзина Windows.",
+          content: "Системы уничтожения информации.",
           isRight: false,
         },
         {
           id: 679,
-          content: "Только команда DEL.",
+          content: "Менеджеры паролей.",
           isRight: false,
         },
         {
           id: 680,
-          content: "Только переформатирование диска.",
+          content: "Shift+Delete.",
           isRight: false,
         },
       ],
@@ -4461,22 +4470,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 681,
-          content: "Информационная безопасность.",
+          content: "Кибербезопасность.",
           isRight: true,
         },
         {
           id: 682,
-          content: "Информационная система.",
+          content: "Подход к информационной безопасности.",
           isRight: false,
         },
         {
           id: 683,
-          content: "Информационный поток.",
+          content: "Целостность данных.",
           isRight: false,
         },
         {
           id: 684,
-          content: "Информационная инфраструктура.",
+          content: "Конфиденциальность информации.",
           isRight: false,
         },
       ],
@@ -4487,22 +4496,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 685,
-          content: "Конфиденциальность, целостность, доступность.",
+          content: "Целостность данных, конфиденциальность информации, доступность.",
           isRight: true,
         },
         {
           id: 686,
-          content: "Скорость, удобство, эффективность.",
+          content: "Кибербезопасность, конфиденциальность информации, целостность данных.",
           isRight: false,
         },
         {
           id: 687,
-          content: "Шифрование, кодирование, хеширование.",
+          content: "Конфиденциальность, целостность, общедоступность.",
           isRight: false,
         },
         {
           id: 688,
-          content: "Регистрация, авторизация, шифрование.",
+          content: "Доступность, точность, эффективность.",
           isRight: false,
         },
       ],
@@ -4513,12 +4522,12 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 689,
-          content: "Целостность.",
+          content: "Целостность данных.",
           isRight: true,
         },
         {
           id: 690,
-          content: "Конфиденциальность.",
+          content: "Конфиденциальность информации.",
           isRight: false,
         },
         {
@@ -4528,7 +4537,7 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 692,
-          content: "Подлинность.",
+          content: "Точность информации.",
           isRight: false,
         },
       ],
@@ -4539,12 +4548,12 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 693,
-          content: "Конфиденциальность.",
+          content: "Конфиденциальность информации.",
           isRight: true,
         },
         {
           id: 694,
-          content: "Целостность.",
+          content: "Целостность данных.",
           isRight: false,
         },
         {
@@ -4554,7 +4563,7 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 696,
-          content: "Открытость.",
+          content: "Точность информации.",
           isRight: false,
         },
       ],
@@ -4570,17 +4579,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 698,
-          content: "Конфиденциальность.",
+          content: "Конфиденциальность информации.",
           isRight: false,
         },
         {
           id: 699,
-          content: "Целостность.",
+          content: "Целостность данных.",
           isRight: false,
         },
         {
           id: 700,
-          content: "Подлинность.",
+          content: "Точность информации.",
           isRight: false,
         },
       ],
@@ -4594,23 +4603,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 701,
-          content:
-            "Комплекс мер, направленных на обеспечение конфиденциальности, целостности и доступности информации.",
+          content: "Комплекс мероприятий, направленных на обеспечение ключевых аспектов информационной безопасности.",
           isRight: true,
         },
         {
           id: 702,
-          content: "Только установка антивирусной программы.",
+          content: "Возможность доступа к информации для всех пользователей с авторскими правами.",
           isRight: false,
         },
         {
           id: 703,
-          content: "Только использование пароля.",
+          content: "Присвоенный статус данных, определяющий необходимый уровень их защиты.",
           isRight: false,
         },
         {
           id: 704,
-          content: "Только шифрование файлов.",
+          content: "Сохранение структуры и/или содержания информации при её передаче и хранении.",
           isRight: false,
         },
       ],
@@ -4622,22 +4630,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 705,
-          content: "Концепция информационной безопасности.",
+          content: "Концепция.",
           isRight: true,
         },
         {
           id: 706,
-          content: "Политика конфиденциальности.",
+          content: "Защита информации.",
           isRight: false,
         },
         {
           id: 707,
-          content: "Стандарт защиты информации.",
+          content: "Эффективность.",
           isRight: false,
         },
         {
           id: 708,
-          content: "Стратегия маркетинга.",
+          content: "Конфиденциальность информации.",
           isRight: false,
         },
       ],
@@ -4649,22 +4657,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 709,
-          content: "На первом этапе.",
+          content: "1-й этап.",
           isRight: true,
         },
         {
           id: 710,
-          content: "На втором этапе.",
+          content: "2-й этап.",
           isRight: false,
         },
         {
           id: 711,
-          content: "На третьем этапе.",
+          content: "3-й этап.",
           isRight: false,
         },
         {
           id: 712,
-          content: "На четвёртом этапе.",
+          content: "4-й этап.",
           isRight: false,
         },
       ],
@@ -4675,22 +4683,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 713,
-          content: "Анализ угроз и оценка рисков.",
+          content: "Анализ потенциальных действий злоумышленника.",
           isRight: true,
         },
         {
           id: 714,
-          content: "Определение ценности объекта.",
+          content: "Определение ценности защищаемого объекта.",
           isRight: false,
         },
         {
           id: 715,
-          content: "Реализация мер защиты.",
+          content: "Оценка надёжности средств защиты информации.",
           isRight: false,
         },
         {
           id: 716,
-          content: "Тестирование системы.",
+          content: "Доступность информации для пользователей, имеющих права доступа.",
           isRight: false,
         },
       ],
@@ -4701,22 +4709,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 717,
-          content: "Разработка и реализация мер защиты.",
+          content: "Оценка надёжности средств защиты информации.",
           isRight: true,
         },
         {
           id: 718,
-          content: "Определение ценности объекта.",
+          content: "Анализ возможных действий злоумышленника.",
           isRight: false,
         },
         {
           id: 719,
-          content: "Анализ угроз.",
+          content: "Определение ценности защищаемого объекта.",
           isRight: false,
         },
         {
           id: 720,
-          content: "Тестирование готовой системы.",
+          content: "Доступность информации для пользователей, имеющих права доступа.",
           isRight: false,
         },
       ],
@@ -4732,17 +4740,17 @@ export const questions: IQuestion[][] = [
         },
         {
           id: 722,
-          content: "Анализ угроз.",
+          content: "Оценка надёжности средств защиты информации.",
           isRight: false,
         },
         {
           id: 723,
-          content: "Реализация мер защиты.",
+          content: "Анализ возможных действий злоумышленника.",
           isRight: false,
         },
         {
           id: 724,
-          content: "Проверка эффективности защиты.",
+          content: "Доступность информации для пользователей, имеющих права доступа.",
           isRight: false,
         },
       ],
@@ -4753,22 +4761,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 725,
-          content: "Документ, описывающий правила и процедуры обеспечения безопасности в организации.",
+          content: "Цели и задачи организации, план мероприятий по обеспечению безопасности.",
           isRight: true,
         },
         {
           id: 726,
-          content: "Программа для шифрования файлов.",
+          content: "Защита от случайных или преднамеренных воздействий естественного или искусственного характера.",
           isRight: false,
         },
         {
           id: 727,
-          content: "Закон государства о защите информации.",
+          content: "Система официального подхода к проблеме информационной безопасности.",
           isRight: false,
         },
         {
           id: 728,
-          content: "Внешний аудит сети.",
+          content: "Доступность информации для пользователей, имеющих права доступа.",
           isRight: false,
         },
       ],
@@ -4779,22 +4787,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 729,
-          content: "Внутренние и внешние угрозы.",
+          content: "Потеря или изменение данных, прекращение обслуживания.",
           isRight: true,
         },
         {
           id: 730,
-          content: "Аппаратные и программные угрозы.",
+          content: "Отказ оборудования или программного обеспечения, потеря данных.",
           isRight: false,
         },
         {
           id: 731,
-          content: "Активные и пассивные угрозы.",
+          content: "Отказ сервиса, действия хакеров.",
           isRight: false,
         },
         {
           id: 732,
-          content: "Постоянные и временные угрозы.",
+          content: "Потеря данных, их изменение.",
           isRight: false,
         },
       ],
@@ -4805,22 +4813,23 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 733,
-          content: "Анализ сетевого трафика, подмена данных, отказ в обслуживании.",
+          content:
+            "Анализ сетевого трафика, ввод ложного объекта в сеть, добавление ложного маршрута, атаки на отказ в обслуживании.",
           isRight: true,
         },
         {
           id: 734,
-          content: "Только установка антивируса.",
+          content: "Потеря или изменение данных, прекращение обслуживания.",
           isRight: false,
         },
         {
           id: 735,
-          content: "Только резервное копирование.",
+          content: "Анализ сетевого трафика, введение ложных объектов в сеть, потеря данных.",
           isRight: false,
         },
         {
           id: 736,
-          content: "Только обновление ОС.",
+          content: "Введение ложного маршрута, атаки на отказ в обслуживании, изменение данных.",
           isRight: false,
         },
       ],
@@ -4831,22 +4840,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 737,
-          content: "Правовые, организационные, программно-технические.",
+          content: "Правовые, административно-организационные, программно-технические.",
           isRight: true,
         },
         {
           id: 738,
-          content: "Только программные.",
+          content: "Локальная, глобальная, программная.",
           isRight: false,
         },
         {
           id: 739,
-          content: "Только организационные.",
+          content: "Административный, глобальный, региональный.",
           isRight: false,
         },
         {
           id: 740,
-          content: "Только аппаратные.",
+          content: "Нет правильного ответа",
           isRight: false,
         },
       ],
@@ -4857,22 +4866,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 741,
-          content: "Тармоқлараро тармоқ (межсетевая сеть).",
+          content: "Объединение сетей.",
           isRight: true,
         },
         {
           id: 742,
-          content: "Компьютер тармоғи.",
+          content: "Обмен данными.",
           isRight: false,
         },
         {
           id: 743,
-          content: "Маҳаллий тармоқ.",
+          content: "База данных.",
           isRight: false,
         },
         {
           id: 744,
-          content: "Глобал ахборот.",
+          content: "Уникальность сетей.",
           isRight: false,
         },
       ],
@@ -4883,22 +4892,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 745,
-          content: "Законы, указы, постановления, нормативные акты в области защиты информации.",
+          content: "Международные правовые нормы, национальные правовые нормы.",
           isRight: true,
         },
         {
           id: 746,
-          content: "Только внутренние инструкции организации.",
+          content: "Международная, глобальная.",
           isRight: false,
         },
         {
           id: 747,
-          content: "Только устные распоряжения руководителя.",
+          content: "Авторские права, приказы.",
           isRight: false,
         },
         {
           id: 748,
-          content: "Только рекомендации производителей ПО.",
+          content: "Локальные, глобальные.",
           isRight: false,
         },
       ],
@@ -4909,22 +4918,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 749,
-          content: "Гражданско-правовые нормы.",
+          content: "Международные правовые нормы.",
           isRight: true,
         },
         {
           id: 750,
-          content: "Уголовно-правовые нормы.",
+          content: "Национальные правовые нормы.",
           isRight: false,
         },
         {
           id: 751,
-          content: "Административно-правовые нормы.",
+          content: "Авторские права.",
           isRight: false,
         },
         {
           id: 752,
-          content: "Дисциплинарные нормы.",
+          content: "Приказы.",
           isRight: false,
         },
       ],
@@ -4935,22 +4944,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 753,
-          content: "На 3 типа: сетевые, программные, BOT-NETS.",
+          content: "4.",
           isRight: true,
         },
         {
           id: 754,
-          content: "На 2 типа.",
+          content: "3.",
           isRight: false,
         },
         {
           id: 755,
-          content: "На 5 типов.",
+          content: "5.",
           isRight: false,
         },
         {
           id: 756,
-          content: "На 7 типов.",
+          content: "2.",
           isRight: false,
         },
       ],
@@ -4961,22 +4970,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 757,
-          content: "Снифинг, спуфинг, DoS, DDoS, MITM.",
+          content: "Атака IP Fragmentation, атака сниффер, IP-Spoofing.",
           isRight: true,
         },
         {
           id: 758,
-          content: "Только вирусы и трояны.",
+          content: "Атаки с использованием определённого программного обеспечения.",
           isRight: false,
         },
         {
           id: 759,
-          content: "Только SQL-инъекции.",
+          content: "Атака DOS, DDoS, фишинг, SQL Injection.",
           isRight: false,
         },
         {
           id: 760,
-          content: "Только фишинг.",
+          content: "Появление и предотвращение бот-сетей.",
           isRight: false,
         },
       ],
@@ -4987,22 +4996,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 761,
-          content: "Вирусы, черви, трояны, руткиты, эксплойты.",
+          content: "Атаки, организованные с использованием специальных программных средств.",
           isRight: true,
         },
         {
           id: 762,
-          content: "DDoS-атаки.",
+          content: "Атака IP Fragmentation, атака сниффера, IP-Spoofing.",
           isRight: false,
         },
         {
           id: 763,
-          content: "Снифинг сети.",
+          content: "Атака DOS, DDoS, фишинг, SQL Injection.",
           isRight: false,
         },
         {
           id: 764,
-          content: "Социальная инженерия.",
+          content: "Появление и предотвращение бот-сетей.",
           isRight: false,
         },
       ],
@@ -5013,22 +5022,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 765,
-          content: "Сети заражённых компьютеров, управляемых злоумышленником для DDoS и спама.",
+          content: "Появление и предотвращение бот-сетей.",
           isRight: true,
         },
         {
           id: 766,
-          content: "Только локальные вирусные атаки.",
+          content: "Атака DOS, DDoS, фишинг, SQL Injection.",
           isRight: false,
         },
         {
           id: 767,
-          content: "Только атаки через USB-устройства.",
+          content: "Атаки с использованием специального программного обеспечения.",
           isRight: false,
         },
         {
           id: 768,
-          content: "Только взлом одного компьютера.",
+          content: "Атака IP Fragmentation, атака сниффера, IP-Spoofing.",
           isRight: false,
         },
       ],
@@ -5039,22 +5048,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 769,
-          content: "Киберпреступление; отличается использованием компьютерных технологий и сетей.",
+          content: "Киберпреступность.",
           isRight: true,
         },
         {
           id: 770,
-          content: "Бытовое преступление; отличается местом совершения.",
+          content: "Кибератака.",
           isRight: false,
         },
         {
           id: 771,
-          content: "Экономическое преступление; отличается мотивом.",
+          content: "Атака DOS.",
           isRight: false,
         },
         {
           id: 772,
-          content: "Транспортное преступление; отличается способом передвижения.",
+          content: "BOT-NET.",
           isRight: false,
         },
       ],
@@ -5065,22 +5074,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 773,
-          content: "На 3 группы: LAN, MAN, WAN.",
+          content: "2.",
           isRight: true,
         },
         {
           id: 774,
-          content: "На 2 группы.",
+          content: "3.",
           isRight: false,
         },
         {
           id: 775,
-          content: "На 5 групп.",
+          content: "4 уровня.",
           isRight: false,
         },
         {
           id: 776,
-          content: "На 7 групп.",
+          content: "6 уровней.",
           isRight: false,
         },
       ],
@@ -5091,22 +5100,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 777,
-          content: "LAN (локальная сеть).",
+          content: "Локальная вычислительная сеть.",
           isRight: true,
         },
         {
           id: 778,
-          content: "WAN (глобальная сеть).",
+          content: "Глобальная вычислительная сеть.",
           isRight: false,
         },
         {
           id: 779,
-          content: "MAN (городская сеть).",
+          content: "Одноранговая сеть.",
           isRight: false,
         },
         {
           id: 780,
-          content: "PAN (персональная сеть).",
+          content: "Сеть на основе сервера.",
           isRight: false,
         },
       ],
@@ -5117,22 +5126,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 781,
-          content: "WAN (глобальная сеть).",
+          content: "Глобальная вычислительная сеть.",
           isRight: true,
         },
         {
           id: 782,
-          content: "LAN (локальная сеть).",
+          content: "Локальная вычислительная сеть.",
           isRight: false,
         },
         {
           id: 783,
-          content: "PAN (персональная сеть).",
+          content: "Одноранговая сеть.",
           isRight: false,
         },
         {
           id: 784,
-          content: "CAN (кампусная сеть).",
+          content: "Сеть на основе сервера.",
           isRight: false,
         },
       ],
@@ -5143,22 +5152,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 785,
-          content: "3 типа: шина, кольцо, звезда.",
+          content: "3.",
           isRight: true,
         },
         {
           id: 786,
-          content: "2 типа.",
+          content: "2.",
           isRight: false,
         },
         {
           id: 787,
-          content: "5 типов.",
+          content: "4 уровня.",
           isRight: false,
         },
         {
           id: 788,
-          content: "7 типов.",
+          content: "5 уровней.",
           isRight: false,
         },
       ],
@@ -5169,22 +5178,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 789,
-          content: "Жёсткий диск, SSD, USB-флешка, оптические диски.",
+          content: "Дискета, компакт-диск, жёсткий диск, флешка.",
           isRight: true,
         },
         {
           id: 790,
-          content: "Только клавиатура и мышь.",
+          content: "Модем, компьютер, жёсткий диск.",
           isRight: false,
         },
         {
           id: 791,
-          content: "Только монитор и принтер.",
+          content: "Дискета, CD-ROM, процессор.",
           isRight: false,
         },
         {
           id: 792,
-          content: "Только процессор и оперативная память.",
+          content: "Компакт-диск, жёсткий диск, клавиатура.",
           isRight: false,
         },
       ],
@@ -5195,22 +5204,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 793,
-          content: "Все компьютеры подключены к центральному узлу (коммутатору или концентратору).",
+          content: "Имеет звёздообразную топологию.",
           isRight: true,
         },
         {
           id: 794,
-          content: "Компьютеры соединены друг с другом по кругу.",
+          content: "Все компьютеры подключены к одной шине.",
           isRight: false,
         },
         {
           id: 795,
-          content: "Все компьютеры подключены к одному общему кабелю.",
+          content: "Компьютеры соединены с предыдущим и следующим устройством.",
           isRight: false,
         },
         {
           id: 796,
-          content: "Компьютеры соединены случайным образом.",
+          content: "Компьютеры подключены к одному компьютеру.",
           isRight: false,
         },
       ],
@@ -5221,22 +5230,22 @@ export const questions: IQuestion[][] = [
       options: [
         {
           id: 797,
-          content: "Гибридная сеть.",
+          content: "Гибридная.",
           isRight: true,
         },
         {
           id: 798,
-          content: "Только одноранговая сеть.",
+          content: "Смешанная.",
           isRight: false,
         },
         {
           id: 799,
-          content: "Только клиент-серверная сеть.",
+          content: "Древовидная.",
           isRight: false,
         },
         {
           id: 800,
-          content: "Глобальная сеть Интернет.",
+          content: "Mesh",
           isRight: false,
         },
       ],
