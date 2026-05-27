@@ -15,9 +15,8 @@ root.render(
       className="wctv-video"
       title="Video 1 - The Importance Of Multi time Frame Trading To Professional Traders"
       src="https://player.vimeo.com/video/362785793?h=9e47e476e0"
-      frameborder="0"
       allow="autoplay"
-      allowfullscreen
+      allowFullScreen
     />
     <Toaster />
   </BrowserRouter>,
