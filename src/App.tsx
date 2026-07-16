@@ -2,8 +2,10 @@ import { Route, Routes } from "react-router";
 import { useTheme } from "./hooks/useTheme";
 import { MainPage } from "./pages/MainPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
-import { CyberPage } from "./pages/Cyber/CyberPage";
-import { CyberQuiz } from "./pages/Cyber/CyberQuiz ";
+import { LiteraturePage } from "./pages/Literature/LiteraturePage";
+import { LiteratureQuiz } from "./pages/Literature/LiteratureQuiz";
+// import { CyberPage } from "./pages/Cyber/CyberPage";
+// import { CyberQuiz } from "./pages/Cyber/CyberQuiz ";
 // import { HistoryPage } from "./pages/HistoryPage";
 // import { HistoryQuiz } from "./pages/HistoryQuiz";
 // import { PhilosophyPage } from "./pages/PhilosophyPage";
@@ -34,8 +36,10 @@ export const App = () => {
       <Route path="/mta/:index/:id" element={<MtaQuiz />} /> */}
       {/* <Route path="/db" element={<DBPage />} />
       <Route path="/db/:index/:id" element={<DBQuiz />} /> */}
-      <Route path="/cyber" element={<CyberPage />} />
-      <Route path="/cyber/:index/:id" element={<CyberQuiz />} />
+      {/* <Route path="/cyber" element={<CyberPage />} /> */}
+      {/* <Route path="/cyber/:index/:id" element={<CyberQuiz />} /> */}
+      <Route path="/literature" element={<LiteraturePage />} />
+      <Route path="/literature/:index/:id" element={<LiteratureQuiz />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );

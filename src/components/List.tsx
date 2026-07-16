@@ -7,9 +7,10 @@ import { useNavigate } from "react-router";
 interface IListProps {
   variants: Array<IQuestion[]>;
   endpoint: TEndpoints;
+  names?: string[];
 }
 
-export const List = ({ endpoint, variants }: IListProps) => {
+export const List = ({ endpoint, variants, names }: IListProps) => {
   const { start } = useQuestionStore();
   const navigate = useNavigate();
 
@@ -19,26 +20,24 @@ export const List = ({ endpoint, variants }: IListProps) => {
     navigate(`/${endpoint}/${index}/${shuffledVariant[0].id}`);
   };
 
+  const tileClass =
+    "border border-border rounded cursor-pointer hover:bg-foreground/15 transition-colors flex flex-col items-center justify-center text-center p-6 min-h-[160px]";
+
   return (
-    <ul className="grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-4 my-5">
+    <ul className="grid grid-cols-[repeat(auto-fit,minmax(180px,1fr))] gap-4 my-5">
       {variants.map((variant, index) => {
         return (
-          <li
-            key={index}
-            className="border border-border rounded hover:bg-foreground/15 transition-colors flex flex-col items-center p-6"
-            onClick={() => onStart(variant, index)}
-          >
-            <File size="48px" />
-            <span className="text-lg mt-4 font-medium">Вариант {index + 1}</span>
+          <li key={index} className={tileClass} onClick={() => onStart(variant, index)}>
+            <File size="44px" className="shrink-0" />
+            <span className="text-base mt-4 font-medium leading-snug text-balance">
+              {names?.[index] ?? `Вариант ${index + 1}`}
+            </span>
           </li>
         );
       })}
-      <li
-        className="border border-border rounded hover:bg-foreground/15 transition-colors flex flex-col items-center p-6"
-        onClick={() => onStart(variants.flat(), "total")}
-      >
-        <Files size="48px" />
-        <span className="text-lg mt-4 font-medium">Общий</span>
+      <li className={tileClass} onClick={() => onStart(variants.flat(), "total")}>
+        <Files size="44px" className="shrink-0" />
+        <span className="text-base mt-4 font-medium leading-snug">Общий</span>
       </li>
     </ul>
   );

@@ -23,8 +23,11 @@ export const MainPage = () => {
         {/* <Button asChild variant="outline" className="text-lg px-16 py-8">
           <Link to="/db">База данных</Link>
         </Button> */}
-        <Button asChild variant="outline" className="text-lg px-16 py-8">
+        {/* <Button asChild variant="outline" className="text-lg px-16 py-8">
           <Link to="/cyber">Кибербезопасность</Link>
+        </Button> */}
+        <Button asChild variant="outline" className="text-lg px-16 py-8">
+          <Link to="/literature">Литература</Link>
         </Button>
       </div>
     </main>
