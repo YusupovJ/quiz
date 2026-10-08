@@ -4,28 +4,24 @@ import { MainPage } from "./pages/MainPage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { LiteraturePage } from "./pages/Literature/LiteraturePage";
 import { LiteratureQuiz } from "./pages/Literature/LiteratureQuiz";
-// import { CyberPage } from "./pages/Cyber/CyberPage";
-// import { CyberQuiz } from "./pages/Cyber/CyberQuiz ";
-// import { HistoryPage } from "./pages/HistoryPage";
-// import { HistoryQuiz } from "./pages/HistoryQuiz";
-// import { PhilosophyPage } from "./pages/PhilosophyPage";
-// import { PhilosophyQuiz } from "./pages/PhilosophyQuiz";
-// import { AcademyPage } from "./pages/AcademyPage";
-// import { AcademyQuiz } from "./pages/AcademyQuiz ";
-// import { ReligiaPage } from "./pages/ReligiaPage";
-// import { ReligiaQuiz } from "./pages/ReligiaQuiz";
-// import { MtaPage } from "./pages/MtaPage";
-// import { MtaQuiz } from "./pages/MtaQuiz";
-// import { DBPage } from "./pages/DBPage";
-// import { DBQuiz } from "./pages/DBQuiz";
+import { CyberPage } from "./pages/Cyber/CyberPage";
+import { CyberQuiz } from "./pages/Cyber/CyberQuiz ";
+import { PhilosophyPage } from "./pages/Philosophy/PhilosophyPage";
+import { PhilosophyQuiz } from "./pages/Philosophy/PhilosophyQuiz";
+import { AcademyPage } from "./pages/Academy/AcademyPage";
+import { AcademyQuiz } from "./pages/Academy/AcademyQuiz ";
+import { ReligiaPage } from "./pages/Religia/ReligiaPage";
+import { ReligiaQuiz } from "./pages/Religia/ReligiaQuiz";
+import { MtaPage } from "./pages/Mta/MtaPage";
+import { MtaQuiz } from "./pages/Mta/MtaQuiz";
+import { DBPage } from "./pages/DB/DBPage";
+import { DBQuiz } from "./pages/DB/DBQuiz";
 
 export const App = () => {
   useTheme();
   return (
     <Routes>
       <Route path="/" element={<MainPage />} />
-      {/* <Route path="/history" element={<HistoryPage />} />
-      <Route path="/history/:index/:id" element={<HistoryQuiz />} />
       <Route path="/philosophy" element={<PhilosophyPage />} />
       <Route path="/philosophy/:index/:id" element={<PhilosophyQuiz />} />
       <Route path="/academy" element={<AcademyPage />} />
@@ -33,11 +29,11 @@ export const App = () => {
       <Route path="/religia" element={<ReligiaPage />} />
       <Route path="/religia/:index/:id" element={<ReligiaQuiz />} />
       <Route path="/mta" element={<MtaPage />} />
-      <Route path="/mta/:index/:id" element={<MtaQuiz />} /> */}
-      {/* <Route path="/db" element={<DBPage />} />
-      <Route path="/db/:index/:id" element={<DBQuiz />} /> */}
-      {/* <Route path="/cyber" element={<CyberPage />} /> */}
-      {/* <Route path="/cyber/:index/:id" element={<CyberQuiz />} /> */}
+      <Route path="/mta/:index/:id" element={<MtaQuiz />} />
+      <Route path="/db" element={<DBPage />} />
+      <Route path="/db/:index/:id" element={<DBQuiz />} />
+      <Route path="/cyber" element={<CyberPage />} />
+      <Route path="/cyber/:index/:id" element={<CyberQuiz />} />
       <Route path="/literature" element={<LiteraturePage />} />
       <Route path="/literature/:index/:id" element={<LiteratureQuiz />} />
       <Route path="*" element={<NotFoundPage />} />
